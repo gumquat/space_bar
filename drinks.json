@@ -1,4 +1,18 @@
-
+[
+  {
+    "name": "Tatooine Sandstorm",
+    "description": "A tequila-based cocktail with a hint of citrus and spice, evoking the harsh desert climate of Tatooine.",
+    "price": 12.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "tequila",
+      "triple sec",
+      "lime juice",
+      "orange bitters",
+      "chili powder",
+      "salt rim"
+    ]
+  },
   {
     "name": "Endor Elixir",
     "description": "A refreshing, earthy cocktail made with foraged forest ingredients, perfect for the lush moon of Endor.",
