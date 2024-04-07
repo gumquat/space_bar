@@ -1,18 +1,13 @@
 import psycopg2
 import json
 
-# PostgreSQL connection details
-host = "your_host"
-database = "your_database"
-user = "your_username"
-password = "your_password"
-
 # Connect to PostgreSQL
 conn = psycopg2.connect(
-    host=host,
-    database=database,
-    user=user,
-    password=password
+    dbname="space_bar",
+    user="postgres",
+    password="Password123",
+    host="localhost",
+    port="5432"
 )
 
 # Create a cursor object
