@@ -1,0 +1,124 @@
+[
+  {
+    "drink_name": "Jakku Jammer",
+    "description": "A bold, earthy cocktail that captures the rugged, desert landscape of the planet Jakku.",
+    "price": 12.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "tequila",
+      "mezcal",
+      "lime juice",
+      "agave syrup",
+      "chili-salt rim"
+    ]
+  },
+  {
+    "drink_name": "Ryloth Riser",
+    "description": "A vibrant, citrus-forward cocktail that evokes the lush, twi'lek homeworld of Ryloth.",
+    "price": 11.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "vodka",
+      "blood orange juice",
+      "lime juice",
+      "honey syrup",
+      "basil"
+    ]
+  },
+  {
+    "drink_name": "Ilum Ice Blaster",
+    "description": "A frosty, icy cocktail that captures the frozen, crystal-rich planet of Ilum.",
+    "price": 13.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "vodka",
+      "blue curaçao",
+      "white crème de menthe",
+      "lemon juice",
+      "crushed ice"
+    ]
+  },
+  {
+    "drink_name": "Exegol Eclipse",
+    "description": "A dark, brooding cocktail that evokes the ominous, lightning-filled planet of Exegol.",
+    "price": 14.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "dark rum",
+      "blackberry liqueur",
+      "lemon juice",
+      "black charcoal powder",
+      "black salt"
+    ]
+  },
+  {
+    "drink_name": "Korriban Kraken",
+    "description": "A bold, complex cocktail that pays homage to the ancient Sith homeworld of Korriban.",
+    "price": 12.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "aged rum",
+      "spiced rum",
+      "blackberry syrup",
+      "lime juice",
+      "activated charcoal"
+    ]
+  },
+  {
+    "drink_name": "Eadu Elixir",
+    "description": "A moody, rain-inspired cocktail that captures the gloomy, tempestuous planet of Eadu.",
+    "price": 11.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "gin",
+      "earl grey tea syrup",
+      "lemon juice",
+      "angostura bitters",
+      "club soda"
+    ]
+  },
+  {
+    "drink_name": "Crait Crusher",
+    "description": "A crisp, mineral-rich cocktail that evokes the white, salt-covered terrain of the planet Crait.",
+    "price": 13.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "vodka",
+      "white cranberry juice",
+      "lime juice",
+      "white sugar rim"
+    ]
+  },
+  {
+    "drink_name": "Saleucami Sunrise",
+    "description": "A vibrant, tropical cocktail that celebrates the diverse ecosystems of the planet Saleucami.",
+    "price": 10.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "light rum",
+      "mango juice",
+      "lime juice",
+      "coconut water",
+      "mint"
+    ]
+  },
+  {
+    "drink_name": "Umbara Underworld",
+    "description": "A dark, mysterious cocktail that evokes the shadowy, dangerous world of Umbara.",
+    "price": 14.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "dark rum",
+      "coffee liqueur",
+      "creme de violette",
+      "orange bitters"
+    ]
+  },
+  {
+    "drink_name": "Ahch-To Ale",
+    "description": "A crisp, refreshing ale with notes of ocean brine and sea moss, inspired by the remote planet of Ahch-To.",
+    "price": 8.99,
+    "drink_type": "Beer",
+    "ingredients": null
+  }
+]
