@@ -18,21 +18,12 @@ with open('drinks.json', 'r') as f:
     # Load the JSON data
     drinks_data = json.load(f)
 
-# Create the table if it doesn't exist
-cur.execute("""
-    CREATE TABLE IF NOT EXISTS drinks (
-        id SERIAL PRIMARY KEY,
-        name TEXT,
-        description TEXT,
-        price FLOAT
-    )
-""")
-
 # Insert the JSON data into the table
+# MAKE SURE THAT THE LAST %S imports AN ARRAY!!!!!!!!! <---
 for drink in drinks_data:
     cur.execute("""
-        INSERT INTO drinks (name, description, price)
-        VALUES (%s, %s, %s)
+        INSERT INTO drinks (name, description, price, drink_type, ingredients)
+        VALUES (%s, %s, %s, %s, %s) 
     """, (drink['name'], drink['description'], drink['price']))
 
 # Commit the changes and close the connection

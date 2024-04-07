@@ -19,7 +19,8 @@ cur = conn.cursor()
 ### MAKE A TON OF TABLES ALL AT ONCE
 the_big_query = '''
 CREATE TABLE "drinks" (
-    "drink_name" varchar PRIMARY KEY,
+    "drink_id" int PRIMARY KEY,
+    "drink_name" varchar,
     "description" varchar,
     "price" varchar,
     "drink_type" varchar,
