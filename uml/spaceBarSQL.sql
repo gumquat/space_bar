@@ -1,5 +1,5 @@
 CREATE TABLE "drinks" (
-  "drink_id" int PRIMARY KEY,
+  "drink_id" SERIAL PRIMARY KEY,
   "drink_name" varchar,
   "description" varchar,
   "price" varchar,

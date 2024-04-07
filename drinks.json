@@ -1,6 +1,6 @@
 [
   {
-    "name": "Tatooine Sandstorm",
+    "drink_name": "Tatooine Sandstorm",
     "description": "A tequila-based cocktail with a hint of citrus and spice, evoking the harsh desert climate of Tatooine.",
     "price": 12.99,
     "drink_type": "Cocktail",
@@ -14,7 +14,7 @@
     ]
   },
   {
-    "name": "Endor Elixir",
+    "drink_name": "Endor Elixir",
     "description": "A refreshing, earthy cocktail made with foraged forest ingredients, perfect for the lush moon of Endor.",
     "price": 11.99,
     "drink_type": "Cocktail",
@@ -27,7 +27,7 @@
     ]
   },
   {
-    "name": "Hoth Haze",
+    "drink_name": "Hoth Haze",
     "description": "A blustery, ice-cold cocktail that captures the frozen tundra of the planet Hoth.",
     "price": 13.99,
     "drink_type": "Cocktail",
@@ -39,14 +39,14 @@
     ]
   },
   {
-    "name": "Alderaan Ale",
+    "drink_name": "Alderaan Ale",
     "description": "A rich, malty ale with a subtle floral aroma, inspired by the lost planet of Alderaan.",
     "price": 7.99,
     "drink_type": "Beer",
     "ingredients": null
   },
   {
-    "name": "Kashyyyk Cooler",
+    "drink_name": "Kashyyyk Cooler",
     "description": "A tropical, fruit-forward cocktail that evokes the lush, jungle-like forests of Kashyyyk.",
     "price": 10.99,
     "drink_type": "Cocktail",
@@ -59,7 +59,7 @@
     ]
   },
   {
-    "name": "Bespin Breeze",
+    "drink_name": "Bespin Breeze",
     "description": "A light, bubbly cocktail with a hint of citrus and cloud-like texture, reminiscent of the floating cities of Bespin.",
     "price": 11.99,
     "drink_type": "Cocktail",
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "name": "Mandalore Mule",
+    "drink_name": "Mandalore Mule",
     "description": "A spicy, bold cocktail inspired by the warrior culture of the planet Mandalore.",
     "price": 12.99,
     "drink_type": "Cocktail",
@@ -84,14 +84,14 @@
     ]
   },
   {
-    "name": "Mustafar Merlot",
+    "drink_name": "Mustafar Merlot",
     "description": "A dark, brooding red wine with a hint of smoke and ash, evoking the hellish landscape of the planet Mustafar.",
     "price": 14.99,
     "drink_type": "Wine",
     "ingredients": null
   },
   {
-    "name": "Kamino Kolada",
+    "drink_name": "Kamino Kolada",
     "description": "A tropical, creamy cocktail that pays homage to the rainy, ocean-covered planet of Kamino.",
     "price": 11.99,
     "drink_type": "Cocktail",
@@ -103,7 +103,7 @@
     ]
   },
   {
-    "name": "Naboo Nectar",
+    "drink_name": "Naboo Nectar",
     "description": "A delicate, floral and fruity cocktail that celebrates the lush, idyllic planet of Naboo.",
     "price": 10.99,
     "drink_type": "Cocktail",

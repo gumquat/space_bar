@@ -1,4 +1,5 @@
 import psycopg2
+from psycopg2 import extras
 import json
 
 # Connect to PostgreSQL
@@ -15,20 +16,22 @@ cur = conn.cursor()
 
 # Open the JSON file and load the data
 with open('drinks.json', 'r') as f:
-    data = json.load(f)
+    drinks_data = json.load(f)
 
-# Insert the data into the 'drinks' table
-for drink in data:
-    sql = "INSERT INTO drinks (drink_id, drink_name, description, price, drink_type, ingredients) VALUES (%s, %s, %s, %s, %s, %s)"
-    values = (
-        drink['drink_id'],
-        drink['drink_name'],
-        drink['description'],
-        drink['price'],
-        drink['drink_type'],
-        drink['ingredients']
+# Iterate through the data and insert into the "drinks" table
+for drink in drinks_data:
+    drink_name = drink['drink_name']
+    description = drink['description']
+    price = str(drink['price'])
+    drink_type = drink['drink_type']
+    ingredients = drink['ingredients']
+
+    # Insert the data into the "drinks" table
+    cur.execute(
+        "INSERT INTO drinks (drink_name, description, price, drink_type, ingredients) "
+        "VALUES (%s, %s, %s, %s, %s)",
+        (drink_name, description, price, drink_type, ingredients)
     )
-    cur.execute(sql, values)
 
 # Commit the changes and close the connection
 conn.commit()

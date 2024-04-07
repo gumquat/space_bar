@@ -1,17 +1,18 @@
 import json
 import psycopg2
 
-# Establish a connection to your PostgreSQL server
+# Connect to PostgreSQL
 conn = psycopg2.connect(
-    host="your_postgresql_host",
-    database="your_database_name",
-    user="your_username",
-    password="your_password"
+    dbname="space_bar",
+    user="postgres",
+    password="Password123",
+    host="localhost",
+    port="5432"
 )
 
 cur = conn.cursor()
 
-def insert_json_to_postgres(table_name, json_file):
+def insert_json_to_postgres(space_bar, json_file):
     with open(json_file, 'r') as f:
         data = json.load(f)
 
