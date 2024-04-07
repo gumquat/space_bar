@@ -15,7 +15,7 @@ conn = psycopg2.connect(
 cur = conn.cursor()
 
 # Open the JSON file and load the data
-with open('drinks.json', 'r') as f:
+with open('drinks2.json', 'r') as f:
     drinks_data = json.load(f)
 
 # Iterate through the data and insert into the "drinks" table
