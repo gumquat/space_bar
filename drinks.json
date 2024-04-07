@@ -1,0 +1,120 @@
+Here is a list of 10 unique space/Star Wars-themed drinks with their descriptions, prices, drink types, and ingredients in JSON format:
+
+[
+  {
+    "name": "Tatooine Sandstorm",
+    "description": "A tequila-based cocktail with a hint of citrus and spice, evoking the harsh desert climate of Tatooine.",
+    "price": 12.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "tequila",
+      "triple sec",
+      "lime juice",
+      "orange bitters",
+      "chili powder",
+      "salt rim"
+    ]
+  },
+  {
+    "name": "Endor Elixir",
+    "description": "A refreshing, earthy cocktail made with foraged forest ingredients, perfect for the lush moon of Endor.",
+    "price": 11.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "gin",
+      "elderflower liqueur",
+      "pine needle syrup",
+      "lemon juice",
+      "soda water"
+    ]
+  },
+  {
+    "name": "Hoth Haze",
+    "description": "A blustery, ice-cold cocktail that captures the frozen tundra of the planet Hoth.",
+    "price": 13.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "vodka",
+      "blue curaçao",
+      "coconut cream",
+      "crushed ice"
+    ]
+  },
+  {
+    "name": "Alderaan Ale",
+    "description": "A rich, malty ale with a subtle floral aroma, inspired by the lost planet of Alderaan.",
+    "price": 7.99,
+    "drink_type": "Beer",
+    "ingredients": null
+  },
+  {
+    "name": "Kashyyyk Cooler",
+    "description": "A tropical, fruit-forward cocktail that evokes the lush, jungle-like forests of Kashyyyk.",
+    "price": 10.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "rum",
+      "pineapple juice",
+      "coconut water",
+      "lime juice",
+      "mint"
+    ]
+  },
+  {
+    "name": "Bespin Breeze",
+    "description": "A light, bubbly cocktail with a hint of citrus and cloud-like texture, reminiscent of the floating cities of Bespin.",
+    "price": 11.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "gin",
+      "lemon juice",
+      "simple syrup",
+      "club soda",
+      "egg white"
+    ]
+  },
+  {
+    "name": "Mandalore Mule",
+    "description": "A spicy, bold cocktail inspired by the warrior culture of the planet Mandalore.",
+    "price": 12.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "vodka",
+      "ginger beer",
+      "lime juice",
+      "chili pepper"
+    ]
+  },
+  {
+    "name": "Mustafar Merlot",
+    "description": "A dark, brooding red wine with a hint of smoke and ash, evoking the hellish landscape of the planet Mustafar.",
+    "price": 14.99,
+    "drink_type": "Wine",
+    "ingredients": null
+  },
+  {
+    "name": "Kamino Kolada",
+    "description": "A tropical, creamy cocktail that pays homage to the rainy, ocean-covered planet of Kamino.",
+    "price": 11.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "rum",
+      "coconut cream",
+      "pineapple juice",
+      "lime juice"
+    ]
+  },
+  {
+    "name": "Naboo Nectar",
+    "description": "A delicate, floral and fruity cocktail that celebrates the lush, idyllic planet of Naboo.",
+    "price": 10.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "gin",
+      "elderflower liqueur",
+      "strawberry puree",
+      "lemon juice",
+      "sparkling wine"
+    ]
+  }
+]
