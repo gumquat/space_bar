@@ -105,6 +105,28 @@ def get_wines():
 
     return jsonify(wine_list)
 
+### ROUTE ::: BUDGET_DRINKS ###
+@app.route('/budget_drinks', methods=['GET'])
+def get_budget_drinks():
+    # Query the "drinks" table for drinks with a price of 10.99 or lower
+    cur.execute("SELECT * FROM drinks WHERE price::numeric <= 10.99")
+    budget_drinks = cur.fetchall()
+
+    # Convert the query results to a list of dictionaries
+    drink_list = []
+    for drink in budget_drinks:
+        drink_dict = {
+            'drink_id': drink[0],
+            'drink_name': drink[1],
+            'description': drink[2],
+            'price': drink[3],
+            'drink_type': drink[4],
+            'ingredients': drink[5]
+        }
+        drink_list.append(drink_dict)
+
+    return jsonify(drink_list)
+
 
 # DO NOT TOUCH
 if __name__ == '__main__':
