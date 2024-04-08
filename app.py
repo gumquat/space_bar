@@ -87,7 +87,7 @@ def get_beers():
 @app.route('/wines', methods=['GET'])
 def get_wines():
     # Query the "drinks" table for drinks with a drink_type of 'wine'
-    cur.execute("SELECT * FROM drinks WHERE drink_type = 'wine'")
+    cur.execute("SELECT * FROM drinks WHERE drink_type = 'Wine'")
     wines = cur.fetchall()
 
     # Convert the query results to a list of dictionaries
