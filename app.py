@@ -15,25 +15,7 @@ conn = psycopg2.connect(
 # Create a cursor object
 cur = conn.cursor()
 
-
-from flask import Flask, jsonify
-import psycopg2
-
-app = Flask(__name__)
-
-# Connect to the PostgreSQL database
-conn = psycopg2.connect(
-    dbname="space_bar",
-    user="postgres",
-    password="Password123",
-    host="localhost",
-    port="5432"
-)
-
-# Create a cursor object
-cur = conn.cursor()
-
-# ROUTE ::: ALL DRINKS
+### ROUTE ::: ALL DRINKS ###
 @app.route('/drinks', methods=['GET'])
 def get_all_drinks():
     # Query the "drinks" table to get all data
@@ -56,7 +38,7 @@ def get_all_drinks():
     return jsonify(drink_list)
 
 
-# ROUTE ::: COCKTAILS
+### ROUTE ::: COCKTAILS ###
 @app.route('/cocktails', methods=['GET'])
 def get_cocktails():
     # Query the "drinks" table for drinks with a drink_type of 'cocktail'
@@ -77,9 +59,6 @@ def get_cocktails():
         cocktail_list.append(cocktail_dict)
 
     return jsonify(cocktail_list)
-
-
-
 
 
 # DO NOT TOUCH
