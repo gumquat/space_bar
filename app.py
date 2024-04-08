@@ -42,7 +42,7 @@ def get_all_drinks():
 @app.route('/cocktails', methods=['GET'])
 def get_cocktails():
     # Query the "drinks" table for drinks with a drink_type of 'cocktail'
-    cur.execute("SELECT * FROM drinks WHERE drink_type = 'cocktail'")
+    cur.execute("SELECT * FROM drinks WHERE drink_type = 'Cocktail'")
     cocktails = cur.fetchall()
 
     # Convert the query results to a list of dictionaries
@@ -59,6 +59,51 @@ def get_cocktails():
         cocktail_list.append(cocktail_dict)
 
     return jsonify(cocktail_list)
+
+### ROUTE ::: COCKTAILS ###
+@app.route('/beers', methods=['GET'])
+def get_beers():
+    # Query the "drinks" table for drinks with a drink_type of 'beer'
+    cur.execute("SELECT * FROM drinks WHERE drink_type = 'Beer'")
+    beers = cur.fetchall()
+
+    # Convert the query results to a list of dictionaries
+    beer_list = []
+    for beer in beers:
+        beer_dict = {
+            'drink_id': beer[0],
+            'drink_name': beer[1],
+            'description': beer[2],
+            'price': beer[3],
+            'drink_type': beer[4],
+            #'ingredients': beer[5]
+        }
+        beer_list.append(beer_dict)
+
+    return jsonify(beer_list)
+
+
+### ROUTE ::: WINE ###
+@app.route('/wines', methods=['GET'])
+def get_wines():
+    # Query the "drinks" table for drinks with a drink_type of 'wine'
+    cur.execute("SELECT * FROM drinks WHERE drink_type = 'wine'")
+    wines = cur.fetchall()
+
+    # Convert the query results to a list of dictionaries
+    wine_list = []
+    for wine in wines:
+        wine_dict = {
+            'drink_id': wine[0],
+            'drink_name': wine[1],
+            'description': wine[2],
+            'price': wine[3],
+            'drink_type': wine[4],
+            'ingredients': wine[5]
+        }
+        wine_list.append(wine_dict)
+
+    return jsonify(wine_list)
 
 
 # DO NOT TOUCH
