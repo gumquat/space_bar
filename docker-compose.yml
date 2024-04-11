@@ -1,0 +1,43 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    command: >
+      /bin/sh -c "./wait-for-it.sh --strict postgres:5432 &&
+      python3 makeTables.py &&
+      python3 json2Postgres_01.py &&
+      flask run --host=0.0.0.0"
+    container_name: space_bar
+    volumes:
+      - .:/space_bar
+    ports:
+      - "8080:8080"
+      - "5000:5000"
+      - "3000:3000"
+      - "4000:4000"
+    depends_on:
+      - postgres
+    environment:
+      - FLASK_APP=app.py
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - DB_HOST=postgres
+      - DB_PORT=5432
+    # Add other configurations as needed
+
+  postgres:
+    image: postgres:16.2
+    container_name: postgres_space_bar
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "${DB_PORT}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
+  # Define other volumes as needed

@@ -1,36 +1,47 @@
-# import pandas as pandas
-import csv
 import psycopg2
-from psycopg2 import sql
+import os
+import logging
 
-#/var/lib/postgresql/14/main
+LOG_FORMAT = "%(levelname)s %(asctime)s - %(name)s - %(message)s"
+logging.basicConfig(filename='./logs/app.log',
+                    level=logging.DEBUG,
+                    format=LOG_FORMAT,
+                    filemode='a')
+logger = logging.getLogger('tableLogger')
 
-    # CONNECT TO DATBASE
-conn = psycopg2.connect(
-    dbname="space_bar",
-    user="postgres",
-    password="Password123",
-    host="localhost",
-    port="5432"
-)
-# Create a cursor object to execute SQL queries
-cur = conn.cursor()
 
-### MAKE A TON OF TABLES ALL AT ONCE
-the_big_query = '''
-CREATE TABLE "drinks" (
-    "drink_id" SERIAL PRIMARY KEY,
-    "drink_name" varchar,
-    "description" varchar,
-    "price" varchar,
-    "drink_type" varchar,
-    "ingredients" varchar[]
-);
-'''
+# /var/lib/postgresql/14/main
 
-cur.execute(the_big_query)
-conn.commit()
+# Connect to the PostgreSQL database
+conn = None
+try:
+    # Connect to the PostgreSQL database using context manager
+    with psycopg2.connect(
+        dbname=os.environ.get("POSTGRES_DB"),
+        user=os.environ.get("POSTGRES_USER"),
+        password=os.environ.get("POSTGRES_PASSWORD"),
+        host=os.environ.get("DB_HOST"),
+        port=os.environ.get("DB_PORT")
+    ) as conn:
+        with conn.cursor() as cur:
+            # Execute your SQL command
+            the_big_query = '''
+            CREATE TABLE IF NOT EXISTS "drinks" (
+                "drink_id" SERIAL PRIMARY KEY,
+                "drink_name" varchar UNIQUE,
+                "description" varchar,
+                "price" varchar,
+                "drink_type" varchar,
+                "ingredients" varchar[]
+            );
+            '''
+            cur.execute(the_big_query)
+            conn.commit()
+            logger.info("Successfully created tables.")
+except psycopg2.OperationalError as e:
+    logger.critical(f"Failed to connect to the database: {e}")
+    raise e
 
-    # CLOSE IT ALL OUT
+# CLOSE IT ALL OUT
 cur.close()
 conn.close()
