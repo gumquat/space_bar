@@ -1,0 +1,10 @@
+===========
+EPNC
+===========
+to finish the Sphinx requirement:
+
+you may need to run 'pip install my-project'
+
+then run:
+
+sphinx-build -b html docs/ build/ 

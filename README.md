@@ -1,2 +1,1 @@
-# space-bar
-haha its not like the keyboard key, its about drinks!
+please refer to the index file in /docs to see further information

@@ -1,7 +1,15 @@
 from flask import Flask, jsonify
+from flask_caching import Cache
 import psycopg2
 
 app = Flask(__name__)
+
+# Configure the cache
+app.config.from_mapping(
+    CACHE_TYPE="simple",
+    CACHE_DEFAULT_TIMEOUT=300  # Cache duration in seconds
+)
+cache = Cache(app)
 
 # Connect to the PostgreSQL database
 conn = psycopg2.connect(
@@ -17,6 +25,9 @@ cur = conn.cursor()
 
 ### ROUTE ::: ALL DRINKS ###
 @app.route('/drinks', methods=['GET'])
+@cache.cached(timeout=300)
+    """Route that GETS all drinks from entire database
+    """
 def get_all_drinks():
     # Query the "drinks" table to get all data
     cur.execute("SELECT * FROM drinks")
@@ -40,6 +51,9 @@ def get_all_drinks():
 
 ### ROUTE ::: COCKTAILS ###
 @app.route('/cocktails', methods=['GET'])
+@cache.cached(timeout=300)
+    """Route that GETS all drinks of type 'cocktail'
+    """
 def get_cocktails():
     # Query the "drinks" table for drinks with a drink_type of 'cocktail'
     cur.execute("SELECT * FROM drinks WHERE drink_type = 'Cocktail'")
@@ -62,6 +76,9 @@ def get_cocktails():
 
 ### ROUTE ::: COCKTAILS ###
 @app.route('/beers', methods=['GET'])
+@cache.cached(timeout=300)
+    """Route that GETS all drinks of type 'beer'
+    """
 def get_beers():
     # Query the "drinks" table for drinks with a drink_type of 'beer'
     cur.execute("SELECT * FROM drinks WHERE drink_type = 'Beer'")
@@ -85,6 +102,9 @@ def get_beers():
 
 ### ROUTE ::: WINE ###
 @app.route('/wines', methods=['GET'])
+@cache.cached(timeout=300)
+    """Route that GETS all drinks of type 'wine'
+    """
 def get_wines():
     # Query the "drinks" table for drinks with a drink_type of 'wine'
     cur.execute("SELECT * FROM drinks WHERE drink_type = 'Wine'")
@@ -107,6 +127,9 @@ def get_wines():
 
 ### ROUTE ::: BUDGET_DRINKS ###
 @app.route('/budget_drinks', methods=['GET'])
+@cache.cached(timeout=300)
+    """Route that GETS drinks with a price value of or less than '10.99'
+    """
 def get_budget_drinks():
     # Query the "drinks" table for drinks with a price of 10.99 or lower
     cur.execute("SELECT * FROM drinks WHERE price::numeric <= 10.99")
