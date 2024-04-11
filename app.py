@@ -26,9 +26,10 @@ cur = conn.cursor()
 ### ROUTE ::: ALL DRINKS ###
 @app.route('/drinks', methods=['GET'])
 @cache.cached(timeout=300)
+
+def get_all_drinks():
     """Route that GETS all drinks from entire database
     """
-def get_all_drinks():
     # Query the "drinks" table to get all data
     cur.execute("SELECT * FROM drinks")
     drinks = cur.fetchall()
@@ -52,9 +53,10 @@ def get_all_drinks():
 ### ROUTE ::: COCKTAILS ###
 @app.route('/cocktails', methods=['GET'])
 @cache.cached(timeout=300)
+
+def get_cocktails():
     """Route that GETS all drinks of type 'cocktail'
     """
-def get_cocktails():
     # Query the "drinks" table for drinks with a drink_type of 'cocktail'
     cur.execute("SELECT * FROM drinks WHERE drink_type = 'Cocktail'")
     cocktails = cur.fetchall()
@@ -77,9 +79,10 @@ def get_cocktails():
 ### ROUTE ::: COCKTAILS ###
 @app.route('/beers', methods=['GET'])
 @cache.cached(timeout=300)
+
+def get_beers():
     """Route that GETS all drinks of type 'beer'
     """
-def get_beers():
     # Query the "drinks" table for drinks with a drink_type of 'beer'
     cur.execute("SELECT * FROM drinks WHERE drink_type = 'Beer'")
     beers = cur.fetchall()
@@ -103,9 +106,10 @@ def get_beers():
 ### ROUTE ::: WINE ###
 @app.route('/wines', methods=['GET'])
 @cache.cached(timeout=300)
+
+def get_wines():
     """Route that GETS all drinks of type 'wine'
     """
-def get_wines():
     # Query the "drinks" table for drinks with a drink_type of 'wine'
     cur.execute("SELECT * FROM drinks WHERE drink_type = 'Wine'")
     wines = cur.fetchall()
@@ -128,9 +132,10 @@ def get_wines():
 ### ROUTE ::: BUDGET_DRINKS ###
 @app.route('/budget_drinks', methods=['GET'])
 @cache.cached(timeout=300)
+
+def get_budget_drinks():
     """Route that GETS drinks with a price value of or less than '10.99'
     """
-def get_budget_drinks():
     # Query the "drinks" table for drinks with a price of 10.99 or lower
     cur.execute("SELECT * FROM drinks WHERE price::numeric <= 10.99")
     budget_drinks = cur.fetchall()
