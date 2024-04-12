@@ -1,21 +1,31 @@
 import psycopg2
 from psycopg2 import extras
 import json
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+DB_NAME = os.getenv("DB_NAME")
+DB_USER = os.getenv("DB_USER")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
+DB_HOST = os.getenv("DB_HOST")
+DB_PORT = os.getenv("DB_PORT")
 
 # Connect to PostgreSQL
 conn = psycopg2.connect(
-    dbname="space_bar",
-    user="postgres",
-    password="Password123",
-    host="localhost",
-    port="5432"
+    dbname=DB_NAME,
+    user=DB_USER,
+    password=DB_PASSWORD,
+    host=DB_HOST,
+    port=DB_PORT
 )
 
 # Create a cursor object
 cur = conn.cursor()
 
 # Open the JSON file and load the data
-with open('drinks2.json', 'r') as f:
+with open('drinks.json', 'r') as f:
     drinks_data = json.load(f)
 
 # Iterate through the data and insert into the "drinks" table
