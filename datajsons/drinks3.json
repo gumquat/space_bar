@@ -1,0 +1,113 @@
+[
+  {
+    "drink_name": "Galactic Grog",
+    "description": "A daring mix of dark rum and fiery spices, meant to fuel interstellar adventurers through the cold void.",
+    "price": 12.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "dark rum",
+      "ginger beer",
+      "lime juice",
+      "cinnamon",
+      "nutmeg"
+    ]
+  },
+  {
+    "drink_name": "Meteor Mule",
+    "description": "An explosive twist on a classic, with a dash of blackberry liqueur to mimic the dark void of space.",
+    "price": 11.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "vodka",
+      "ginger beer",
+      "blackberry liqueur",
+      "lime juice"
+    ]
+  },
+  {
+    "drink_name": "Cosmic Cosmo",
+    "description": "A celestial blend of vodka, cranberry, and lime, bright as a supernova explosion.",
+    "price": 13.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "vodka",
+      "triple sec",
+      "cranberry juice",
+      "lime juice"
+    ]
+  },
+  {
+    "drink_name": "Void Vodka Tonic",
+    "description": "A simple yet profound mix that mirrors the vast emptiness of space, with a twist of lemon for brightness.",
+    "price": 9.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "vodka",
+      "tonic water",
+      "lemon twist"
+    ]
+  },
+  {
+    "drink_name": "Nebula Negroni",
+    "description": "A cosmic dance of gin, vermouth, and Campari, as mesmerizing as the swirls of a nebula.",
+    "price": 14.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "gin",
+      "sweet vermouth",
+      "Campari",
+      "orange peel"
+    ]
+  },
+  {
+    "drink_name": "Orion's Belt Brew",
+    "description": "A stellar craft beer with hints of citrus and pine, as timeless as the constellation itself.",
+    "price": 6.99,
+    "drink_type": "Beer",
+    "ingredients": null
+  },
+  {
+    "drink_name": "Saturn Sangria",
+    "description": "A planetary punch of fruits and red wine, garnished with a ring of apple slices.",
+    "price": 15.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "red wine",
+      "brandy",
+      "orange juice",
+      "mixed fruits",
+      "apple slices"
+    ]
+  },
+  {
+    "drink_name": "Pluto's Punch",
+    "description": "A mysterious mix that's still part of the cocktail solar system, with a dark, rich berry flavor.",
+    "price": 10.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "dark rum",
+      "blueberry syrup",
+      "lemon juice",
+      "soda water"
+    ]
+  },
+  {
+    "drink_name": "Black Hole Bitter",
+    "description": "A deep, dark stout that pulls you in with its gravity, rich in chocolate and coffee notes.",
+    "price": 7.99,
+    "drink_type": "Beer",
+    "ingredients": null
+  },
+  {
+    "drink_name": "Venusian Vesper",
+    "description": "A bright, bold cocktail with a hint of bitterness, as mysterious and enticing as the planet Venus.",
+    "price": 14.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "gin",
+      "vodka",
+      "Lillet Blanc",
+      "lemon twist"
+    ]
+  }
+]

@@ -1,47 +1,85 @@
 import psycopg2
-from psycopg2 import extras
 import json
 import os
+import logging
+import glob
 from dotenv import load_dotenv
 
 load_dotenv()
 
-DB_NAME = os.getenv("DB_NAME")
-DB_USER = os.getenv("DB_USER")
-DB_PASSWORD = os.getenv("DB_PASSWORD")
-DB_HOST = os.getenv("DB_HOST")
-DB_PORT = os.getenv("DB_PORT")
+LOG_FORMAT = "%(levelname)s %(asctime)s - %(name)s - %(message)s"
+logging.basicConfig(filename='./logs/app.log',
+                    level=logging.DEBUG,
+                    format=LOG_FORMAT,
+                    filemode='a')
+logger = logging.getLogger('jsonLogger')
 
-# Connect to PostgreSQL
-conn = psycopg2.connect(
-    dbname=DB_NAME,
-    user=DB_USER,
-    password=DB_PASSWORD,
-    host=DB_HOST,
-    port=DB_PORT
-)
+# Path to directory containing JSON files
+json_dir_path = './datajsons/'
 
-# Create a cursor object
-cur = conn.cursor()
+# Database connection parameters
+dbname = os.environ.get("POSTGRES_DB")
+user = os.environ.get("POSTGRES_USER")
+password = os.environ.get("POSTGRES_PASSWORD")
+host = os.environ.get("DB_HOST")
+port = os.environ.get("DB_PORT")
 
-# Open the JSON file and load the data
-with open('drinks.json', 'r') as f:
-    drinks_data = json.load(f)
+# Connect to the PostgreSQL database
+conn = None
+try:
+    with psycopg2.connect(dbname=dbname, user=user, password=password,
+                          host=host, port=port) as conn:
+        with conn.cursor() as cur:
+            # Glob pattern to match all .json files in json_dir_path
+            for json_file_path in glob.glob(
+                os.path.join(json_dir_path, '*.json')
+            ):
+                with open(json_file_path, 'r') as f:
+                    drinks_data = json.load(f)
 
-# Iterate through the data and insert into the "drinks" table
-for drink in drinks_data:
-    drink_name = drink['drink_name']
-    description = drink['description']
-    price = str(drink['price'])
-    drink_type = drink['drink_type']
-    ingredients = drink['ingredients']
+                for drink in drinks_data:
+                    cur.execute(
+                        "SELECT 1 FROM drinks WHERE drink_name = %s",
+                        (drink['drink_name'],)
+                    )
+                    if cur.fetchone():
+                        logger.info(f"Drink '{drink['drink_name']}' "
+                                    f"already exists. Skipping.")
+                        continue
 
-    # Insert the data into the "drinks" table
-    cur.execute(
-        "INSERT INTO drinks (drink_name, description, price, drink_type, ingredients) "
-        "VALUES (%s, %s, %s, %s, %s)",
-        (drink_name, description, price, drink_type, ingredients)
-    )
+                    # Prepare data for insertion
+                    values = (
+                        drink['drink_name'],
+                        drink['description'],
+                        str(drink['price']),
+                        drink['drink_type'],
+                        drink['ingredients']
+                    )
+
+                    # SQL command
+                    insert_sql = '''
+                    INSERT INTO drinks
+                    (drink_name, description, price, drink_type, ingredients)
+                    VALUES (%s, %s, %s, %s, %s)
+                    ON CONFLICT (drink_name) DO NOTHING
+                    '''
+
+                    # Execute SQL command
+                    try:
+                        cur.execute(insert_sql, values)
+                    except psycopg2.Error as e:
+                        logger.error(f"Error inserting {values}: {e}")
+                        continue  # Skip to the next record on error
+
+                conn.commit()
+                logger.info(
+                    "Successfully inserted data into the drinks table."
+                    + json_file_path
+                )
+except psycopg2.OperationalError as e:
+    logger.critical(f"Failed to connect to the database: {e}")
+    raise e
+
 
 # Commit the changes and close the connection
 conn.commit()
