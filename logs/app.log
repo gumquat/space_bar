@@ -297,3 +297,27 @@ DEBUG 2024-04-11 18:27:00,610 - appLogger - Handling request: /drinks
 INFO 2024-04-11 18:27:00,610 - appLogger - Fetching all drinks
 DEBUG 2024-04-11 18:27:00,611 - appLogger - Handled request: /drinks - Response status: 200
 INFO 2024-04-11 18:27:00,611 - werkzeug - 127.0.0.1 - - [11/Apr/2024 18:27:00] "GET /drinks HTTP/1.1" 200 -
+INFO 2024-04-11 18:42:01,603 - tableLogger - Successfully created tables.
+INFO 2024-04-11 18:42:01,673 - jsonLogger - Successfully inserted data into the drinks table.
+INFO 2024-04-11 18:42:01,677 - jsonLogger - Successfully inserted data into the drinks table.
+INFO 2024-04-11 18:42:01,681 - jsonLogger - Successfully inserted data into the drinks table.
+INFO 2024-04-11 18:42:01,859 - appLogger - Starting Flask application
+INFO 2024-04-11 18:42:01,859 - appLogger - Loading configuration...
+INFO 2024-04-11 18:42:01,870 - appLogger - Successfully connected to the database.
+INFO 2024-04-11 18:42:01,877 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+INFO 2024-04-11 18:42:01,877 - werkzeug - [33mPress CTRL+C to quit[0m
+DEBUG 2024-04-11 18:42:38,388 - appLogger - Handling request: /drinks
+INFO 2024-04-11 18:42:38,388 - appLogger - Fetching all drinks
+DEBUG 2024-04-11 18:42:38,391 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-11 18:42:38,392 - werkzeug - 127.0.0.1 - - [11/Apr/2024 18:42:38] "GET /drinks HTTP/1.1" 200 -
+INFO 2024-04-11 18:51:23,814 - jsonLogger - Successfully inserted data into the drinks table.
+INFO 2024-04-11 18:51:23,817 - jsonLogger - Successfully inserted data into the drinks table.
+INFO 2024-04-11 18:51:23,821 - jsonLogger - Successfully inserted data into the drinks table.
+INFO 2024-04-11 18:51:23,824 - jsonLogger - Successfully inserted data into the drinks table.
+DEBUG 2024-04-11 18:51:27,873 - appLogger - Handling request: /drinks
+INFO 2024-04-11 18:51:27,874 - appLogger - Fetching all drinks
+DEBUG 2024-04-11 18:51:27,880 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-11 18:51:27,882 - werkzeug - 127.0.0.1 - - [11/Apr/2024 18:51:27] "GET /drinks HTTP/1.1" 200 -
