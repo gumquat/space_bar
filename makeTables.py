@@ -41,7 +41,7 @@ try:
                 "ingredients" varchar[]
             );
 
-            CREATE TABLE "users" (
+            CREATE TABLE IF NOT EXISTS "users" (
                 "user_id" SERIAL PRIMARY KEY,
                 "username" varchar UNIQUE NOT NULL,
                 "password" varchar NOT NULL,

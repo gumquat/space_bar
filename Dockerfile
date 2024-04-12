@@ -29,7 +29,7 @@ WORKDIR /space_bar
 
 # Install Python libraries for data manipulation, ETL, and database interaction
 RUN pip3 install --no-cache-dir \
-    pandas sqlalchemy numpy pyarrow csvkit beautifulsoup4 lxml requests psycopg2-binary python-dotenv Flask flask_caching Cache
+    pandas sqlalchemy numpy pyarrow csvkit beautifulsoup4 lxml requests psycopg2-binary python-dotenv Flask flask_caching Cache flask_bcrypt
 
 # Create a non-root user
 RUN useradd -M correction_tester
