@@ -1,0 +1,119 @@
+[
+  {
+    "drink_name": "Starlight Spritzer",
+    "description": "A sparkling cocktail that captures the twinkle of the stars with a splash of elderflower and prosecco.",
+    "price": 12.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "prosecco",
+      "elderflower liqueur",
+      "soda water",
+      "lemon zest"
+    ]
+  },
+  {
+    "drink_name": "Red Dwarf Red",
+    "description": "A vibrant red wine blend that's as complex and intriguing as the celestial bodies it's named after.",
+    "price": 14.99,
+    "drink_type": "Wine",
+    "ingredients": null
+  },
+  {
+    "drink_name": "Galaxy Gimlet",
+    "description": "A gin-based concoction with a hint of lime, simple yet as vast in flavor as the galaxy.",
+    "price": 10.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "gin",
+      "lime juice",
+      "simple syrup"
+    ]
+  },
+  {
+    "drink_name": "Eclipse Elixir",
+    "description": "A dark, mysterious cocktail that combines black vodka with a touch of creme de cassis for a true celestial event.",
+    "price": 13.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "black vodka",
+      "crème de cassis",
+      "lemon juice",
+      "sugar rim"
+    ]
+  },
+  {
+    "drink_name": "Martian Margarita",
+    "description": "A green twist on the classic margarita, with a hint of midori for that alien touch.",
+    "price": 11.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "tequila",
+      "midori",
+      "lime juice",
+      "salt rim"
+    ]
+  },
+  {
+    "drink_name": "Solar Flare Sangria",
+    "description": "A fiery sangria that mixes bold red wine with the fruits of the sun for a burst of flavor.",
+    "price": 15.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "red wine",
+      "orange liqueur",
+      "brandy",
+      "fresh fruit chunks",
+      "orange juice"
+    ]
+  },
+  {
+    "drink_name": "Andromeda Arrack",
+    "description": "An exotic, spicy drink that takes you on a journey to the far reaches of the Andromeda galaxy.",
+    "price": 12.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "arrack",
+      "coconut water",
+      "pineapple juice",
+      "nutmeg"
+    ]
+  },
+  {
+    "drink_name": "Supernova Sour",
+    "description": "A cocktail that explodes with flavors of bourbon and lemon, as bright and intense as a supernova.",
+    "price": 11.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "bourbon",
+      "lemon juice",
+      "simple syrup",
+      "egg white",
+      "bitters"
+    ]
+  },
+  {
+    "drink_name": "Cosmic Cooler",
+    "description": "A refreshing, minty cocktail that's perfect for cooling down after a long day of space exploration.",
+    "price": 9.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "vodka",
+      "fresh mint",
+      "cucumber",
+      "lime juice",
+      "soda water"
+    ]
+  },
+  {
+    "drink_name": "Quasar Quencher",
+    "description": "A bright, bold drink that quenches even the largest cosmic thirst with a vibrant mix of passion fruit and mango.",
+    "price": 12.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "rum",
+      "passion fruit juice",
+      "mango juice",
+      "lime juice"
+    ]
+  }
+]

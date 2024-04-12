@@ -313,3 +313,11 @@ DEBUG 2024-04-11 18:42:38,388 - appLogger - Handling request: /drinks
 INFO 2024-04-11 18:42:38,388 - appLogger - Fetching all drinks
 DEBUG 2024-04-11 18:42:38,391 - appLogger - Handled request: /drinks - Response status: 200
 INFO 2024-04-11 18:42:38,392 - werkzeug - 127.0.0.1 - - [11/Apr/2024 18:42:38] "GET /drinks HTTP/1.1" 200 -
+INFO 2024-04-11 18:51:23,814 - jsonLogger - Successfully inserted data into the drinks table.
+INFO 2024-04-11 18:51:23,817 - jsonLogger - Successfully inserted data into the drinks table.
+INFO 2024-04-11 18:51:23,821 - jsonLogger - Successfully inserted data into the drinks table.
+INFO 2024-04-11 18:51:23,824 - jsonLogger - Successfully inserted data into the drinks table.
+DEBUG 2024-04-11 18:51:27,873 - appLogger - Handling request: /drinks
+INFO 2024-04-11 18:51:27,874 - appLogger - Fetching all drinks
+DEBUG 2024-04-11 18:51:27,880 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-11 18:51:27,882 - werkzeug - 127.0.0.1 - - [11/Apr/2024 18:51:27] "GET /drinks HTTP/1.1" 200 -
