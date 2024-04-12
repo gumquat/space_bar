@@ -1,6 +1,8 @@
 import psycopg2
+from psycopg2 import sql
 import os
 import logging
+from dotenv import load_dotenv
 
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(name)s - %(message)s"
 logging.basicConfig(filename='./logs/app.log',
@@ -11,6 +13,10 @@ logger = logging.getLogger('tableLogger')
 
 
 # /var/lib/postgresql/14/main
+
+
+load_dotenv()
+
 
 # Connect to the PostgreSQL database
 conn = None
@@ -34,6 +40,14 @@ try:
                 "drink_type" varchar,
                 "ingredients" varchar[]
             );
+
+            CREATE TABLE "users" (
+                "user_id" SERIAL PRIMARY KEY,
+                "username" varchar UNIQUE NOT NULL,
+                "password" varchar NOT NULL,
+                "email" varchar UNIQUE NOT NULL
+            );
+
             '''
             cur.execute(the_big_query)
             conn.commit()

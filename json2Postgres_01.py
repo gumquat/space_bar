@@ -3,6 +3,9 @@ import json
 import os
 import logging
 import glob
+from dotenv import load_dotenv
+
+load_dotenv()
 
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(name)s - %(message)s"
 logging.basicConfig(filename='./logs/app.log',
@@ -76,6 +79,7 @@ try:
 except psycopg2.OperationalError as e:
     logger.critical(f"Failed to connect to the database: {e}")
     raise e
+
 
 # Commit the changes and close the connection
 conn.commit()
