@@ -1,0 +1,126 @@
+[
+  {
+    "drink_name": "Corellian Brandy",
+    "description": "A strong, refined brandy celebrated across the galaxy, best enjoyed in the high-speed cantinas of Corellia.",
+    "price": 14.99,
+    "drink_type": "Brandy",
+    "ingredients": [
+      "aged brandy",
+      "simple syrup",
+      "bitters",
+      "orange zest"
+    ]
+  },
+  {
+    "drink_name": "Dagobah Swampwater",
+    "description": "A murky, mysterious mix with herbal notes, as mysterious as the swamps of Dagobah itself.",
+    "price": 12.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "dark rum",
+      "green chartreuse",
+      "lime juice",
+      "mint",
+      "soda water"
+    ]
+  },
+  {
+    "drink_name": "Sith Sangria",
+    "description": "A dark, potent sangria with deep red tones, as tempting as the path to the dark side.",
+    "price": 15.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "red wine",
+      "brandy",
+      "orange juice",
+      "mixed berries",
+      "sparkling water"
+    ]
+  },
+  {
+    "drink_name": "Jedi Mind Trick",
+    "description": "This cocktail might not influence your thoughts, but it will certainly refresh them with its vibrant layers of flavor.",
+    "price": 13.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "vodka",
+      "blue curaçao",
+      "lemonade",
+      "lemon twist"
+    ]
+  },
+  {
+    "drink_name": "Bantha Milk",
+    "description": "Rich and creamy, this iconic Tatooine beverage is famous for its bold blue color and sweet taste.",
+    "price": 9.99,
+    "drink_type": "Milkshake",
+    "ingredients": [
+      "blue tinted milk",
+      "cream",
+      "sugar",
+      "vanilla extract"
+    ]
+  },
+  {
+    "drink_name": "Rancor's Breath",
+    "description": "As fierce as the creature itself, this drink packs a punch with a fiery blend of spices and alcohol.",
+    "price": 16.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "overproof rum",
+      "cinnamon schnapps",
+      "tabasco",
+      "black pepper"
+    ]
+  },
+  {
+    "drink_name": "Lando's Luck",
+    "description": "Smooth and suave, this sophisticated cocktail is as charming as Lando himself.",
+    "price": 13.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "bourbon",
+      "amaro",
+      "sweet vermouth",
+      "orange bitters"
+    ]
+  },
+  {
+    "drink_name": "Rebel's Respite",
+    "description": "A refreshing cocktail designed to lift the spirits of any weary rebel after a long battle.",
+    "price": 11.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "gin",
+      "elderflower liqueur",
+      "grapefruit juice",
+      "rosemary"
+    ]
+  },
+  {
+    "drink_name": "Ewok Elixir",
+    "description": "A fruity and forest-inspired drink, sweet and vibrant, perfect for celebration in any tree-top village.",
+    "price": 10.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "light rum",
+      "pineapple juice",
+      "coconut cream",
+      "orange juice",
+      "nutmeg"
+    ]
+  },
+  {
+    "drink_name": "Skywalker Sour",
+    "description": "A drink with a mix of light and dark, blending sweet and sour in a way that's as complex as the Skywalker saga.",
+    "price": 12.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "blue curaçao",
+      "whiskey",
+      "lemon juice",
+      "egg white",
+      "starfruit slice"
+    ]
+  }
+]
