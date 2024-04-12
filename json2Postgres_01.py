@@ -35,6 +35,15 @@ try:
                     drinks_data = json.load(f)
 
                 for drink in drinks_data:
+                    cur.execute(
+                        "SELECT 1 FROM drinks WHERE drink_name = %s",
+                        (drink['drink_name'],)
+                    )
+                    if cur.fetchone():
+                        logger.info(f"Drink '{drink['drink_name']}' "
+                                    f"already exists. Skipping.")
+                        continue
+
                     # Prepare data for insertion
                     values = (
                         drink['drink_name'],
@@ -62,6 +71,7 @@ try:
                 conn.commit()
                 logger.info(
                     "Successfully inserted data into the drinks table."
+                    + json_file_path
                 )
 except psycopg2.OperationalError as e:
     logger.critical(f"Failed to connect to the database: {e}")
