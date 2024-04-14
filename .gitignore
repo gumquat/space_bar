@@ -4,3 +4,6 @@
 /data/species.csv
 /logs
 /package-lock.json
+/package.json
+/my_env
+/env/bin
