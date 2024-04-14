@@ -4,8 +4,8 @@ services:
     build: .
     command: >
       /bin/sh -c "./wait-for-it.sh --strict postgres:5432 &&
-      python3 makeTables.py &&
-      python3 json2Postgres_01.py &&
+      python3 ./data_processing/makeTables.py &&
+      python3 ./data_processing/json2Postgres_01.py &&
       flask run --host=0.0.0.0"
     container_name: space_bar
     volumes:
