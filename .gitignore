@@ -3,3 +3,4 @@
 .env
 /data/species.csv
 /logs
+/package-lock.json
