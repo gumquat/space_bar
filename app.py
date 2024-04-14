@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 import os
 import logging
 
+
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(name)s - %(message)s"
 logging.basicConfig(filename='./logs/app.log',
                     level=logging.DEBUG,
@@ -40,20 +41,25 @@ DB_HOST = os.environ.get('DB_HOST')
 DB_PORT = os.environ.get('DB_PORT')
 
 # Connect to the PostgreSQL database
+conn = None
 try:
     conn = psycopg2.connect(
-        dbname=DB_NAME,
-        user=DB_USER,
-        password=DB_PASSWORD,
-        host=DB_HOST,
-        port=DB_PORT
+        dbname=os.environ.get("POSTGRES_DB"),
+        user=os.environ.get("POSTGRES_USER"),
+        password=os.environ.get("POSTGRES_PASSWORD"),
+        host=os.environ.get("DB_HOST"),
+        port=os.environ.get("DB_PORT")
     )
     logger.info("Successfully connected to the database.")
 except psycopg2.OperationalError as e:
     logger.critical(f"Failed to connect to the database: {e}")
+    raise e
 
 # Create a cursor object
-cur = conn.cursor()
+if conn:
+    cur = conn.cursor()
+else:
+    logger.critical("Database connection was not established. Exiting.")
 
 @app.before_request
 def before_request_log():
@@ -62,7 +68,10 @@ def before_request_log():
 
 @app.after_request
 def after_request_log(response):
-    logger.debug(f"Handled request: {request.path} - Response status: {response.status_code}")
+    logger.debug(
+        f"Handled request: {request.path} - "
+        f"Response status: {response.status_code}"
+    )
     return response
 
 
@@ -167,7 +176,7 @@ def get_all_drinks():
             }
             drink_list.append(drink_dict)
 
-        return jsonify(drink_list)
+        return jsonify(drink_list), 200
     except Exception as e:
         logger.error(f"Failed to fetch drinks: {e}")
         return "An error occured!", 500
@@ -196,7 +205,7 @@ def get_cocktails():
                 'drink_type': cocktail[4],
                 'ingredients': cocktail[5]
             }
-            cocktail_list.append(cocktail_dict)
+            cocktail_list.append(cocktail_dict), 200
 
         return jsonify(cocktail_list)
     except Exception as e:
@@ -227,7 +236,7 @@ def get_beers():
                 'drink_type': beer[4],
                 # 'ingredients': beer[5]
             }
-            beer_list.append(beer_dict)
+            beer_list.append(beer_dict), 200
 
         return jsonify(beer_list)
     except Exception as e:
@@ -260,7 +269,7 @@ def get_wines():
             }
             wine_list.append(wine_dict)
 
-        return jsonify(wine_list)
+        return jsonify(wine_list), 200
     except Exception as e:
         logger.error(f"Failed to fetch wines: {e}")
         return "An error occured!", 500
@@ -289,7 +298,7 @@ def get_budget_drinks():
                 'drink_type': drink[4],
                 'ingredients': drink[5]
             }
-            drink_list.append(drink_dict)
+            drink_list.append(drink_dict), 200
 
         return jsonify(drink_list)
     except Exception as e:
