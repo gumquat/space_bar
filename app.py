@@ -84,6 +84,7 @@ def handle_exception(e):
 def register():
     if request.method == 'POST':
         # Get the form data
+        email = request.form['email']
         username = request.form['username']
         password = request.form['password']
 
@@ -91,13 +92,13 @@ def register():
         hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
 
         # Insert the user data into the "users" table
-        cur.execute("INSERT INTO users (username, password) VALUES (%s, %s)", (username, hashed_password))
+        cur.execute("INSERT INTO users (username, password, email) VALUES (%s, %s, %s)", (username, hashed_password, email))
         conn.commit()
 
         flash('You have successfully registered. Please log in.', 'success')
         return jsonify({'message': 'You have successfully registered. Please log in.'})
         # return redirect(url_for('login'))
-    
+
     return jsonify({'message': 'Please register to access this page'})
     # return render_template('register.html')
 
@@ -124,7 +125,7 @@ def login():
             flash('Login Unsuccessful. Please check username and password', 'danger')
             return jsonify({'message': 'Login Unsuccessful. Please check username and password'})
             # return redirect(url_for('login'))
-    
+
     return jsonify({'message': 'Please log in to access this page'})
     # return render_template('login.html')
 
@@ -135,7 +136,7 @@ def logout():
     return jsonify({'message': 'You have been logged out'})
     # return redirect(url_for('login'))
 
-# Decorator to check if the user is logged in    
+# Decorator to check if the user is logged in
 def login_required(func):
     def wrapper(*args, **kwargs):
         if 'user_id' not in session:

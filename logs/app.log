@@ -761,3 +761,266 @@ INFO 2024-04-14 13:30:41,648 - werkzeug - [31m[1mWARNING: This is a developmen
  * Running on http://127.0.0.1:5000
  * Running on http://172.18.0.3:5000
 INFO 2024-04-14 13:30:41,648 - werkzeug - [33mPress CTRL+C to quit[0m
+INFO 2024-04-14 13:36:42,767 - tableLogger - Successfully created tables.
+INFO 2024-04-14 13:36:42,812 - jsonLogger - Drink 'Corellian Brandy' already exists. Skipping.
+INFO 2024-04-14 13:36:42,812 - jsonLogger - Drink 'Dagobah Swampwater' already exists. Skipping.
+INFO 2024-04-14 13:36:42,812 - jsonLogger - Drink 'Sith Sangria' already exists. Skipping.
+INFO 2024-04-14 13:36:42,813 - jsonLogger - Drink 'Jedi Mind Trick' already exists. Skipping.
+INFO 2024-04-14 13:36:42,813 - jsonLogger - Drink 'Bantha Milk' already exists. Skipping.
+INFO 2024-04-14 13:36:42,813 - jsonLogger - Drink 'Rancor's Breath' already exists. Skipping.
+INFO 2024-04-14 13:36:42,813 - jsonLogger - Drink 'Lando's Luck' already exists. Skipping.
+INFO 2024-04-14 13:36:42,813 - jsonLogger - Drink 'Rebel's Respite' already exists. Skipping.
+INFO 2024-04-14 13:36:42,814 - jsonLogger - Drink 'Ewok Elixir' already exists. Skipping.
+INFO 2024-04-14 13:36:42,814 - jsonLogger - Drink 'Skywalker Sour' already exists. Skipping.
+INFO 2024-04-14 13:36:42,814 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks5.json
+INFO 2024-04-14 13:36:42,814 - jsonLogger - Drink 'Jakku Jammer' already exists. Skipping.
+INFO 2024-04-14 13:36:42,815 - jsonLogger - Drink 'Ryloth Riser' already exists. Skipping.
+INFO 2024-04-14 13:36:42,815 - jsonLogger - Drink 'Ilum Ice Blaster' already exists. Skipping.
+INFO 2024-04-14 13:36:42,815 - jsonLogger - Drink 'Exegol Eclipse' already exists. Skipping.
+INFO 2024-04-14 13:36:42,815 - jsonLogger - Drink 'Korriban Kraken' already exists. Skipping.
+INFO 2024-04-14 13:36:42,815 - jsonLogger - Drink 'Eadu Elixir' already exists. Skipping.
+INFO 2024-04-14 13:36:42,816 - jsonLogger - Drink 'Crait Crusher' already exists. Skipping.
+INFO 2024-04-14 13:36:42,816 - jsonLogger - Drink 'Saleucami Sunrise' already exists. Skipping.
+INFO 2024-04-14 13:36:42,816 - jsonLogger - Drink 'Umbara Underworld' already exists. Skipping.
+INFO 2024-04-14 13:36:42,816 - jsonLogger - Drink 'Ahch-To Ale' already exists. Skipping.
+INFO 2024-04-14 13:36:42,816 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks2.json
+INFO 2024-04-14 13:36:42,817 - jsonLogger - Drink 'Tatooine Sandstorm' already exists. Skipping.
+INFO 2024-04-14 13:36:42,817 - jsonLogger - Drink 'Endor Elixir' already exists. Skipping.
+INFO 2024-04-14 13:36:42,817 - jsonLogger - Drink 'Hoth Haze' already exists. Skipping.
+INFO 2024-04-14 13:36:42,817 - jsonLogger - Drink 'Alderaan Ale' already exists. Skipping.
+INFO 2024-04-14 13:36:42,817 - jsonLogger - Drink 'Kashyyyk Cooler' already exists. Skipping.
+INFO 2024-04-14 13:36:42,818 - jsonLogger - Drink 'Bespin Breeze' already exists. Skipping.
+INFO 2024-04-14 13:36:42,818 - jsonLogger - Drink 'Mandalore Mule' already exists. Skipping.
+INFO 2024-04-14 13:36:42,818 - jsonLogger - Drink 'Mustafar Merlot' already exists. Skipping.
+INFO 2024-04-14 13:36:42,818 - jsonLogger - Drink 'Kamino Kolada' already exists. Skipping.
+INFO 2024-04-14 13:36:42,819 - jsonLogger - Drink 'Naboo Nectar' already exists. Skipping.
+INFO 2024-04-14 13:36:42,819 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks.json
+INFO 2024-04-14 13:36:42,819 - jsonLogger - Drink 'Starlight Spritzer' already exists. Skipping.
+INFO 2024-04-14 13:36:42,820 - jsonLogger - Drink 'Red Dwarf Red' already exists. Skipping.
+INFO 2024-04-14 13:36:42,820 - jsonLogger - Drink 'Galaxy Gimlet' already exists. Skipping.
+INFO 2024-04-14 13:36:42,820 - jsonLogger - Drink 'Eclipse Elixir' already exists. Skipping.
+INFO 2024-04-14 13:36:42,820 - jsonLogger - Drink 'Martian Margarita' already exists. Skipping.
+INFO 2024-04-14 13:36:42,820 - jsonLogger - Drink 'Solar Flare Sangria' already exists. Skipping.
+INFO 2024-04-14 13:36:42,821 - jsonLogger - Drink 'Andromeda Arrack' already exists. Skipping.
+INFO 2024-04-14 13:36:42,821 - jsonLogger - Drink 'Supernova Sour' already exists. Skipping.
+INFO 2024-04-14 13:36:42,821 - jsonLogger - Drink 'Cosmic Cooler' already exists. Skipping.
+INFO 2024-04-14 13:36:42,821 - jsonLogger - Drink 'Quasar Quencher' already exists. Skipping.
+INFO 2024-04-14 13:36:42,821 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks4.json
+INFO 2024-04-14 13:36:42,822 - jsonLogger - Drink 'Galactic Grog' already exists. Skipping.
+INFO 2024-04-14 13:36:42,822 - jsonLogger - Drink 'Meteor Mule' already exists. Skipping.
+INFO 2024-04-14 13:36:42,822 - jsonLogger - Drink 'Cosmic Cosmo' already exists. Skipping.
+INFO 2024-04-14 13:36:42,822 - jsonLogger - Drink 'Void Vodka Tonic' already exists. Skipping.
+INFO 2024-04-14 13:36:42,822 - jsonLogger - Drink 'Nebula Negroni' already exists. Skipping.
+INFO 2024-04-14 13:36:42,822 - jsonLogger - Drink 'Orion's Belt Brew' already exists. Skipping.
+INFO 2024-04-14 13:36:42,823 - jsonLogger - Drink 'Saturn Sangria' already exists. Skipping.
+INFO 2024-04-14 13:36:42,823 - jsonLogger - Drink 'Pluto's Punch' already exists. Skipping.
+INFO 2024-04-14 13:36:42,823 - jsonLogger - Drink 'Black Hole Bitter' already exists. Skipping.
+INFO 2024-04-14 13:36:42,823 - jsonLogger - Drink 'Venusian Vesper' already exists. Skipping.
+INFO 2024-04-14 13:36:42,823 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks3.json
+INFO 2024-04-14 13:36:42,935 - appLogger - Starting Flask application
+INFO 2024-04-14 13:36:42,935 - appLogger - Loading configuration...
+INFO 2024-04-14 13:36:42,940 - appLogger - Successfully connected to the database.
+INFO 2024-04-14 13:36:42,944 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+INFO 2024-04-14 13:36:42,944 - werkzeug - [33mPress CTRL+C to quit[0m
+INFO 2024-04-14 13:57:27,601 - tableLogger - Successfully created tables.
+INFO 2024-04-14 13:57:27,646 - jsonLogger - Drink 'Corellian Brandy' already exists. Skipping.
+INFO 2024-04-14 13:57:27,647 - jsonLogger - Drink 'Dagobah Swampwater' already exists. Skipping.
+INFO 2024-04-14 13:57:27,647 - jsonLogger - Drink 'Sith Sangria' already exists. Skipping.
+INFO 2024-04-14 13:57:27,647 - jsonLogger - Drink 'Jedi Mind Trick' already exists. Skipping.
+INFO 2024-04-14 13:57:27,647 - jsonLogger - Drink 'Bantha Milk' already exists. Skipping.
+INFO 2024-04-14 13:57:27,648 - jsonLogger - Drink 'Rancor's Breath' already exists. Skipping.
+INFO 2024-04-14 13:57:27,648 - jsonLogger - Drink 'Lando's Luck' already exists. Skipping.
+INFO 2024-04-14 13:57:27,648 - jsonLogger - Drink 'Rebel's Respite' already exists. Skipping.
+INFO 2024-04-14 13:57:27,648 - jsonLogger - Drink 'Ewok Elixir' already exists. Skipping.
+INFO 2024-04-14 13:57:27,648 - jsonLogger - Drink 'Skywalker Sour' already exists. Skipping.
+INFO 2024-04-14 13:57:27,649 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks5.json
+INFO 2024-04-14 13:57:27,649 - jsonLogger - Drink 'Jakku Jammer' already exists. Skipping.
+INFO 2024-04-14 13:57:27,649 - jsonLogger - Drink 'Ryloth Riser' already exists. Skipping.
+INFO 2024-04-14 13:57:27,649 - jsonLogger - Drink 'Ilum Ice Blaster' already exists. Skipping.
+INFO 2024-04-14 13:57:27,650 - jsonLogger - Drink 'Exegol Eclipse' already exists. Skipping.
+INFO 2024-04-14 13:57:27,650 - jsonLogger - Drink 'Korriban Kraken' already exists. Skipping.
+INFO 2024-04-14 13:57:27,650 - jsonLogger - Drink 'Eadu Elixir' already exists. Skipping.
+INFO 2024-04-14 13:57:27,650 - jsonLogger - Drink 'Crait Crusher' already exists. Skipping.
+INFO 2024-04-14 13:57:27,650 - jsonLogger - Drink 'Saleucami Sunrise' already exists. Skipping.
+INFO 2024-04-14 13:57:27,651 - jsonLogger - Drink 'Umbara Underworld' already exists. Skipping.
+INFO 2024-04-14 13:57:27,651 - jsonLogger - Drink 'Ahch-To Ale' already exists. Skipping.
+INFO 2024-04-14 13:57:27,651 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks2.json
+INFO 2024-04-14 13:57:27,651 - jsonLogger - Drink 'Tatooine Sandstorm' already exists. Skipping.
+INFO 2024-04-14 13:57:27,652 - jsonLogger - Drink 'Endor Elixir' already exists. Skipping.
+INFO 2024-04-14 13:57:27,652 - jsonLogger - Drink 'Hoth Haze' already exists. Skipping.
+INFO 2024-04-14 13:57:27,652 - jsonLogger - Drink 'Alderaan Ale' already exists. Skipping.
+INFO 2024-04-14 13:57:27,652 - jsonLogger - Drink 'Kashyyyk Cooler' already exists. Skipping.
+INFO 2024-04-14 13:57:27,652 - jsonLogger - Drink 'Bespin Breeze' already exists. Skipping.
+INFO 2024-04-14 13:57:27,652 - jsonLogger - Drink 'Mandalore Mule' already exists. Skipping.
+INFO 2024-04-14 13:57:27,652 - jsonLogger - Drink 'Mustafar Merlot' already exists. Skipping.
+INFO 2024-04-14 13:57:27,653 - jsonLogger - Drink 'Kamino Kolada' already exists. Skipping.
+INFO 2024-04-14 13:57:27,653 - jsonLogger - Drink 'Naboo Nectar' already exists. Skipping.
+INFO 2024-04-14 13:57:27,653 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks.json
+INFO 2024-04-14 13:57:27,653 - jsonLogger - Drink 'Starlight Spritzer' already exists. Skipping.
+INFO 2024-04-14 13:57:27,653 - jsonLogger - Drink 'Red Dwarf Red' already exists. Skipping.
+INFO 2024-04-14 13:57:27,654 - jsonLogger - Drink 'Galaxy Gimlet' already exists. Skipping.
+INFO 2024-04-14 13:57:27,654 - jsonLogger - Drink 'Eclipse Elixir' already exists. Skipping.
+INFO 2024-04-14 13:57:27,654 - jsonLogger - Drink 'Martian Margarita' already exists. Skipping.
+INFO 2024-04-14 13:57:27,654 - jsonLogger - Drink 'Solar Flare Sangria' already exists. Skipping.
+INFO 2024-04-14 13:57:27,654 - jsonLogger - Drink 'Andromeda Arrack' already exists. Skipping.
+INFO 2024-04-14 13:57:27,655 - jsonLogger - Drink 'Supernova Sour' already exists. Skipping.
+INFO 2024-04-14 13:57:27,655 - jsonLogger - Drink 'Cosmic Cooler' already exists. Skipping.
+INFO 2024-04-14 13:57:27,655 - jsonLogger - Drink 'Quasar Quencher' already exists. Skipping.
+INFO 2024-04-14 13:57:27,655 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks4.json
+INFO 2024-04-14 13:57:27,656 - jsonLogger - Drink 'Galactic Grog' already exists. Skipping.
+INFO 2024-04-14 13:57:27,656 - jsonLogger - Drink 'Meteor Mule' already exists. Skipping.
+INFO 2024-04-14 13:57:27,656 - jsonLogger - Drink 'Cosmic Cosmo' already exists. Skipping.
+INFO 2024-04-14 13:57:27,656 - jsonLogger - Drink 'Void Vodka Tonic' already exists. Skipping.
+INFO 2024-04-14 13:57:27,656 - jsonLogger - Drink 'Nebula Negroni' already exists. Skipping.
+INFO 2024-04-14 13:57:27,657 - jsonLogger - Drink 'Orion's Belt Brew' already exists. Skipping.
+INFO 2024-04-14 13:57:27,657 - jsonLogger - Drink 'Saturn Sangria' already exists. Skipping.
+INFO 2024-04-14 13:57:27,657 - jsonLogger - Drink 'Pluto's Punch' already exists. Skipping.
+INFO 2024-04-14 13:57:27,657 - jsonLogger - Drink 'Black Hole Bitter' already exists. Skipping.
+INFO 2024-04-14 13:57:27,657 - jsonLogger - Drink 'Venusian Vesper' already exists. Skipping.
+INFO 2024-04-14 13:57:27,657 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks3.json
+INFO 2024-04-14 13:57:27,773 - appLogger - Starting Flask application
+INFO 2024-04-14 13:57:27,773 - appLogger - Loading configuration...
+INFO 2024-04-14 13:57:27,778 - appLogger - Successfully connected to the database.
+INFO 2024-04-14 13:57:27,781 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+INFO 2024-04-14 13:57:27,781 - werkzeug - [33mPress CTRL+C to quit[0m
+DEBUG 2024-04-14 14:02:30,385 - appLogger - Handling request: /wines
+INFO 2024-04-14 14:02:30,385 - appLogger - Fetching Wines
+DEBUG 2024-04-14 14:02:30,386 - appLogger - Handled request: /wines - Response status: 200
+INFO 2024-04-14 14:02:30,387 - werkzeug - 127.0.0.1 - - [14/Apr/2024 14:02:30] "GET /wines HTTP/1.1" 200 -
+DEBUG 2024-04-14 14:07:42,238 - appLogger - Handling request: /register
+DEBUG 2024-04-14 14:07:42,238 - appLogger - Handled request: /register - Response status: 200
+INFO 2024-04-14 14:07:42,238 - werkzeug - 127.0.0.1 - - [14/Apr/2024 14:07:42] "GET /register HTTP/1.1" 200 -
+DEBUG 2024-04-14 14:14:24,467 - appLogger - Handling request: /register
+ERROR 2024-04-14 14:14:24,467 - appLogger - Unhandled exception: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/space_bar/app.py", line 87, in register
+    username = request.form['username']
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/structures.py", line 196, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+DEBUG 2024-04-14 14:14:24,468 - appLogger - Handled request: /register - Response status: 500
+INFO 2024-04-14 14:14:24,468 - werkzeug - 127.0.0.1 - - [14/Apr/2024 14:14:24] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+DEBUG 2024-04-14 14:15:17,678 - appLogger - Handling request: /register
+ERROR 2024-04-14 14:15:17,866 - appLogger - Unhandled exception: null value in column "email" of relation "users" violates not-null constraint
+DETAIL:  Failing row contains (1, evanrich2404, $2b$12$tsX6s9tSTdVUuneIFK5KduBdSDOJnbjsBXbtcDN4MuFkb2G/cHA.C, null).
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/space_bar/app.py", line 94, in register
+    cur.execute("INSERT INTO users (username, password) VALUES (%s, %s)", (username, hashed_password))
+psycopg2.errors.NotNullViolation: null value in column "email" of relation "users" violates not-null constraint
+DETAIL:  Failing row contains (1, evanrich2404, $2b$12$tsX6s9tSTdVUuneIFK5KduBdSDOJnbjsBXbtcDN4MuFkb2G/cHA.C, null).
+
+DEBUG 2024-04-14 14:15:17,866 - appLogger - Handled request: /register - Response status: 500
+INFO 2024-04-14 14:15:17,866 - werkzeug - 127.0.0.1 - - [14/Apr/2024 14:15:17] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+DEBUG 2024-04-14 14:16:56,088 - appLogger - Handling request: /login
+ERROR 2024-04-14 14:16:56,088 - appLogger - Unhandled exception: current transaction is aborted, commands ignored until end of transaction block
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/space_bar/app.py", line 112, in login
+    cur.execute("SELECT * FROM users WHERE username = %s", (username,))
+psycopg2.errors.InFailedSqlTransaction: current transaction is aborted, commands ignored until end of transaction block
+
+DEBUG 2024-04-14 14:16:56,088 - appLogger - Handled request: /login - Response status: 500
+INFO 2024-04-14 14:16:56,089 - werkzeug - 127.0.0.1 - - [14/Apr/2024 14:16:56] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+DEBUG 2024-04-14 14:22:05,942 - appLogger - Handling request: /register
+ERROR 2024-04-14 14:22:06,128 - appLogger - Unhandled exception: current transaction is aborted, commands ignored until end of transaction block
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/space_bar/app.py", line 94, in register
+    # Insert the user data into the "users" table
+psycopg2.errors.InFailedSqlTransaction: current transaction is aborted, commands ignored until end of transaction block
+
+DEBUG 2024-04-14 14:22:06,128 - appLogger - Handled request: /register - Response status: 500
+INFO 2024-04-14 14:22:06,128 - werkzeug - 127.0.0.1 - - [14/Apr/2024 14:22:06] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+INFO 2024-04-14 14:23:17,318 - tableLogger - Successfully created tables.
+INFO 2024-04-14 14:23:17,364 - jsonLogger - Drink 'Corellian Brandy' already exists. Skipping.
+INFO 2024-04-14 14:23:17,364 - jsonLogger - Drink 'Dagobah Swampwater' already exists. Skipping.
+INFO 2024-04-14 14:23:17,365 - jsonLogger - Drink 'Sith Sangria' already exists. Skipping.
+INFO 2024-04-14 14:23:17,365 - jsonLogger - Drink 'Jedi Mind Trick' already exists. Skipping.
+INFO 2024-04-14 14:23:17,365 - jsonLogger - Drink 'Bantha Milk' already exists. Skipping.
+INFO 2024-04-14 14:23:17,365 - jsonLogger - Drink 'Rancor's Breath' already exists. Skipping.
+INFO 2024-04-14 14:23:17,366 - jsonLogger - Drink 'Lando's Luck' already exists. Skipping.
+INFO 2024-04-14 14:23:17,366 - jsonLogger - Drink 'Rebel's Respite' already exists. Skipping.
+INFO 2024-04-14 14:23:17,366 - jsonLogger - Drink 'Ewok Elixir' already exists. Skipping.
+INFO 2024-04-14 14:23:17,366 - jsonLogger - Drink 'Skywalker Sour' already exists. Skipping.
+INFO 2024-04-14 14:23:17,367 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks5.json
+INFO 2024-04-14 14:23:17,367 - jsonLogger - Drink 'Jakku Jammer' already exists. Skipping.
+INFO 2024-04-14 14:23:17,367 - jsonLogger - Drink 'Ryloth Riser' already exists. Skipping.
+INFO 2024-04-14 14:23:17,368 - jsonLogger - Drink 'Ilum Ice Blaster' already exists. Skipping.
+INFO 2024-04-14 14:23:17,368 - jsonLogger - Drink 'Exegol Eclipse' already exists. Skipping.
+INFO 2024-04-14 14:23:17,368 - jsonLogger - Drink 'Korriban Kraken' already exists. Skipping.
+INFO 2024-04-14 14:23:17,368 - jsonLogger - Drink 'Eadu Elixir' already exists. Skipping.
+INFO 2024-04-14 14:23:17,368 - jsonLogger - Drink 'Crait Crusher' already exists. Skipping.
+INFO 2024-04-14 14:23:17,369 - jsonLogger - Drink 'Saleucami Sunrise' already exists. Skipping.
+INFO 2024-04-14 14:23:17,369 - jsonLogger - Drink 'Umbara Underworld' already exists. Skipping.
+INFO 2024-04-14 14:23:17,369 - jsonLogger - Drink 'Ahch-To Ale' already exists. Skipping.
+INFO 2024-04-14 14:23:17,369 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks2.json
+INFO 2024-04-14 14:23:17,370 - jsonLogger - Drink 'Tatooine Sandstorm' already exists. Skipping.
+INFO 2024-04-14 14:23:17,370 - jsonLogger - Drink 'Endor Elixir' already exists. Skipping.
+INFO 2024-04-14 14:23:17,370 - jsonLogger - Drink 'Hoth Haze' already exists. Skipping.
+INFO 2024-04-14 14:23:17,370 - jsonLogger - Drink 'Alderaan Ale' already exists. Skipping.
+INFO 2024-04-14 14:23:17,371 - jsonLogger - Drink 'Kashyyyk Cooler' already exists. Skipping.
+INFO 2024-04-14 14:23:17,371 - jsonLogger - Drink 'Bespin Breeze' already exists. Skipping.
+INFO 2024-04-14 14:23:17,371 - jsonLogger - Drink 'Mandalore Mule' already exists. Skipping.
+INFO 2024-04-14 14:23:17,371 - jsonLogger - Drink 'Mustafar Merlot' already exists. Skipping.
+INFO 2024-04-14 14:23:17,371 - jsonLogger - Drink 'Kamino Kolada' already exists. Skipping.
+INFO 2024-04-14 14:23:17,371 - jsonLogger - Drink 'Naboo Nectar' already exists. Skipping.
+INFO 2024-04-14 14:23:17,371 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks.json
+INFO 2024-04-14 14:23:17,372 - jsonLogger - Drink 'Starlight Spritzer' already exists. Skipping.
+INFO 2024-04-14 14:23:17,372 - jsonLogger - Drink 'Red Dwarf Red' already exists. Skipping.
+INFO 2024-04-14 14:23:17,372 - jsonLogger - Drink 'Galaxy Gimlet' already exists. Skipping.
+INFO 2024-04-14 14:23:17,372 - jsonLogger - Drink 'Eclipse Elixir' already exists. Skipping.
+INFO 2024-04-14 14:23:17,372 - jsonLogger - Drink 'Martian Margarita' already exists. Skipping.
+INFO 2024-04-14 14:23:17,372 - jsonLogger - Drink 'Solar Flare Sangria' already exists. Skipping.
+INFO 2024-04-14 14:23:17,373 - jsonLogger - Drink 'Andromeda Arrack' already exists. Skipping.
+INFO 2024-04-14 14:23:17,373 - jsonLogger - Drink 'Supernova Sour' already exists. Skipping.
+INFO 2024-04-14 14:23:17,373 - jsonLogger - Drink 'Cosmic Cooler' already exists. Skipping.
+INFO 2024-04-14 14:23:17,373 - jsonLogger - Drink 'Quasar Quencher' already exists. Skipping.
+INFO 2024-04-14 14:23:17,373 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks4.json
+INFO 2024-04-14 14:23:17,373 - jsonLogger - Drink 'Galactic Grog' already exists. Skipping.
+INFO 2024-04-14 14:23:17,374 - jsonLogger - Drink 'Meteor Mule' already exists. Skipping.
+INFO 2024-04-14 14:23:17,374 - jsonLogger - Drink 'Cosmic Cosmo' already exists. Skipping.
+INFO 2024-04-14 14:23:17,374 - jsonLogger - Drink 'Void Vodka Tonic' already exists. Skipping.
+INFO 2024-04-14 14:23:17,374 - jsonLogger - Drink 'Nebula Negroni' already exists. Skipping.
+INFO 2024-04-14 14:23:17,374 - jsonLogger - Drink 'Orion's Belt Brew' already exists. Skipping.
+INFO 2024-04-14 14:23:17,374 - jsonLogger - Drink 'Saturn Sangria' already exists. Skipping.
+INFO 2024-04-14 14:23:17,374 - jsonLogger - Drink 'Pluto's Punch' already exists. Skipping.
+INFO 2024-04-14 14:23:17,375 - jsonLogger - Drink 'Black Hole Bitter' already exists. Skipping.
+INFO 2024-04-14 14:23:17,375 - jsonLogger - Drink 'Venusian Vesper' already exists. Skipping.
+INFO 2024-04-14 14:23:17,375 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks3.json
+INFO 2024-04-14 14:23:17,491 - appLogger - Starting Flask application
+INFO 2024-04-14 14:23:17,491 - appLogger - Loading configuration...
+INFO 2024-04-14 14:23:17,496 - appLogger - Successfully connected to the database.
+INFO 2024-04-14 14:23:17,499 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+INFO 2024-04-14 14:23:17,500 - werkzeug - [33mPress CTRL+C to quit[0m
+DEBUG 2024-04-14 14:23:25,889 - appLogger - Handling request: /register
+DEBUG 2024-04-14 14:23:26,082 - appLogger - Handled request: /register - Response status: 200
+INFO 2024-04-14 14:23:26,083 - werkzeug - 127.0.0.1 - - [14/Apr/2024 14:23:26] "POST /register HTTP/1.1" 200 -
+DEBUG 2024-04-14 14:23:40,702 - appLogger - Handling request: /login
+DEBUG 2024-04-14 14:23:40,891 - appLogger - Handled request: /login - Response status: 200
+INFO 2024-04-14 14:23:40,892 - werkzeug - 127.0.0.1 - - [14/Apr/2024 14:23:40] "POST /login HTTP/1.1" 200 -
+DEBUG 2024-04-14 14:24:00,067 - appLogger - Handling request: /logout
+DEBUG 2024-04-14 14:24:00,068 - appLogger - Handled request: /logout - Response status: 200
+INFO 2024-04-14 14:24:00,068 - werkzeug - 127.0.0.1 - - [14/Apr/2024 14:24:00] "GET /logout HTTP/1.1" 200 -
