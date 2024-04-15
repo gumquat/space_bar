@@ -12,7 +12,7 @@
 
 [Notion Write-Up](https://www.notion.so/Space_Bar-56ff5c968bba4a959e6cca2a1611f0b9)
 or
-[Notion Write-Up](/Design%20Documents/notion.png)
+![Notion Write-Up](/Design%20Documents/notion.png)
 
 ## Docker Setup
 
