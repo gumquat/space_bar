@@ -332,6 +332,35 @@ def get_budget_drinks():
         logger.error(f"Failed to fetch budget drinks: {e}")
         return "An error occured!", 500
 
+# ### ROUTE ::: LIQUORS ###
+@app.route('/liquors', methods=['GET'])
+@cache.cached(timeout=300)
+def get_liquors():
+    """Route that GETS all drinks of type 'liquor'
+    """
+    logger.info("Fetching Liquors")
+    try:
+        # Query the "drinks" table for drinks with a drink_type of 'liquor'
+        cur.execute("SELECT * FROM drinks WHERE drink_type = 'Liquor'")
+        liquors = cur.fetchall()
+
+        # Convert the query results to a list of dictionaries
+        liquor_list = []
+        for liquor in liquors:
+            liquor_dict = {
+                'drink_id': liquor[0],
+                'drink_name': liquor[1],
+                'description': liquor[2],
+                'price': liquor[3],
+                'drink_type': liquor[4],
+                'ingredients': liquor[5]
+            }
+            liquor_list.append(liquor_dict)
+
+        return jsonify(liquor_list), 200
+    except Exception as e:
+        logger.error(f"Failed to fetch liquors: {e}")
+        return "An error occurred!", 500
 
 # DO NOT TOUCH
 if __name__ == '__main__':
