@@ -4,11 +4,19 @@
 
 [please refer to the index file in /docs to see further information](/docs/index.rst)
 
+### Our Figma Design
+
+![Figma Design](/Design%20Documents/figma.png)
+
+### Our Notion Write-Up
+
+[Notion Write-Up](https://www.notion.so/Space_Bar-56ff5c968bba4a959e6cca2a1611f0b9)
+or
+[Notion Write-Up](/Design%20Documents/notion.png)
+
 ## Docker Setup
 
-### Starting Docker
-
-#### Introduction
+### Introduction
 
 The way our docker container(s) are setup is through docker-compose.
 That way we can easily setup multiple different containers that are automatically connected to one another.
@@ -16,6 +24,8 @@ The two containers we have running as of now are the PostgreSQL database server 
 Another process that happens along side the two servers is also running two scripts:
 
 1. makeTables.py (Sets up the PostgreSQL tables for drinks and users)
+![sql_tables](/Design%20Documents/space-bar-diagram.png)
+[SQL Tables](/Design%20Documents/spaceBarSQL.sql)
 
 2. json2Postgres_01.py (redundant name but don't want to change because it'll break code)
 
