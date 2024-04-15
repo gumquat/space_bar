@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, redirect, url_for, request, session, flash, render_template
 from flask_caching import Cache
+from flask_cors import CORS
 import psycopg2
 import logging
 from flask_bcrypt import Bcrypt
@@ -20,6 +21,7 @@ logger = logging.getLogger('appLogger')
 load_dotenv()
 
 app = Flask(__name__)
+CORS(app)
 app.secret_key = os.environ.get('SECRET_KEY')
 
 bcrypt = Bcrypt(app)
@@ -29,7 +31,7 @@ logger.info("Loading configuration...")
 
 # Configure the cache
 app.config.from_mapping(
-    CACHE_TYPE="simple",
+    CACHE_TYPE="flask_caching.backends.SimpleCache",
     CACHE_DEFAULT_TIMEOUT=300  # Cache duration in seconds
 )
 cache = Cache(app)
@@ -86,6 +88,10 @@ def handle_exception(e):
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     if request.method == 'POST':
+        
+        if 'email' not in request.form or 'username' not in request.form or 'password' not in request.form:
+            return jsonify({'message': 'Please provide all required fields'}), 400
+        
         # Get the form data
         email = request.form['email']
         username = request.form['username']
@@ -96,15 +102,28 @@ def register():
 
         # Insert the user data into the "users" table
         try:
+            # Start a new transaction
+            conn.autocommit = False
+
+            # Insert the user data in to the "users" table
             cur.execute("INSERT INTO users (username, password, email) VALUES (%s, %s, %s)", (username, hashed_password, email))
+
+            # Commit the transaction if the insert was successful
             conn.commit()
+
             logger.info(f'User registered: {username}')
             flash('You have successfully registered. Please log in.', 'success')
             return jsonify({'message': 'You have successfully registered. Please log in.'}), 200
             # return redirect(url_for('login'))
         except Exception as e:
+            # Rollback the transaction if the insert failed
+            conn.rollback()
+
             logger.error(f'Failed to register user {username}: {e}')
             return jsonify({'message': 'Registration failed'}), 500
+        finally:
+            # Reset the connection to autocommit mode
+            conn.autocommit = True
 
     return jsonify({'message': 'Please register to access this page'})
     # return render_template('register.html')
@@ -332,6 +351,35 @@ def get_budget_drinks():
         logger.error(f"Failed to fetch budget drinks: {e}")
         return "An error occured!", 500
 
+# ### ROUTE ::: LIQUORS ###
+@app.route('/liquors', methods=['GET'])
+@cache.cached(timeout=300)
+def get_liquors():
+    """Route that GETS all drinks of type 'liquor'
+    """
+    logger.info("Fetching Liquors")
+    try:
+        # Query the "drinks" table for drinks with a drink_type of 'liquor'
+        cur.execute("SELECT * FROM drinks WHERE drink_type = 'Liquor'")
+        liquors = cur.fetchall()
+
+        # Convert the query results to a list of dictionaries
+        liquor_list = []
+        for liquor in liquors:
+            liquor_dict = {
+                'drink_id': liquor[0],
+                'drink_name': liquor[1],
+                'description': liquor[2],
+                'price': liquor[3],
+                'drink_type': liquor[4],
+                'ingredients': liquor[5]
+            }
+            liquor_list.append(liquor_dict)
+
+        return jsonify(liquor_list), 200
+    except Exception as e:
+        logger.error(f"Failed to fetch liquors: {e}")
+        return "An error occurred!", 500
 
 # DO NOT TOUCH
 if __name__ == '__main__':

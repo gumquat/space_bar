@@ -1214,3 +1214,60 @@ INFO 2024-04-15 00:41:26,952 - werkzeug - [31m[1mWARNING: This is a developmen
  * Running on http://127.0.0.1:5000
  * Running on http://172.30.100.206:5000
 INFO 2024-04-15 00:41:26,952 - werkzeug - [33mPress CTRL+C to quit[0m
+INFO 2024-04-15 10:49:58,510 - appLogger - Starting Flask application
+INFO 2024-04-15 10:49:58,511 - appLogger - Loading configuration...
+CRITICAL 2024-04-15 10:49:58,529 - appLogger - Failed to connect to the database: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  database "gumquat" does not exist
+
+INFO 2024-04-15 11:51:58,608 - tableLogger - Successfully created tables.
+INFO 2024-04-15 11:51:58,660 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks5.json
+INFO 2024-04-15 11:51:58,665 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks2.json
+INFO 2024-04-15 11:51:58,669 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks.json
+INFO 2024-04-15 11:51:58,674 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks4.json
+INFO 2024-04-15 11:51:58,678 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks3.json
+INFO 2024-04-15 11:51:58,804 - appLogger - Starting Flask application
+INFO 2024-04-15 11:51:58,804 - appLogger - Loading configuration...
+INFO 2024-04-15 11:51:58,812 - appLogger - Successfully connected to the database.
+INFO 2024-04-15 11:51:58,817 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.22.0.3:5000
+INFO 2024-04-15 11:51:58,817 - werkzeug - [33mPress CTRL+C to quit[0m
+DEBUG 2024-04-15 11:55:57,486 - appLogger - Handling request: /
+DEBUG 2024-04-15 11:55:57,486 - appLogger - Handled request: / - Response status: 200
+INFO 2024-04-15 11:55:57,486 - werkzeug - 172.22.0.1 - - [15/Apr/2024 11:55:57] "GET / HTTP/1.1" 200 -
+DEBUG 2024-04-15 11:55:57,540 - appLogger - Handling request: /favicon.ico
+ERROR 2024-04-15 11:55:57,540 - appLogger - Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/usr/local/lib/python3.10/dist-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/routing/map.py", line 631, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+DEBUG 2024-04-15 11:55:57,541 - appLogger - Handled request: /favicon.ico - Response status: 500
+INFO 2024-04-15 11:55:57,541 - werkzeug - 172.22.0.1 - - [15/Apr/2024 11:55:57] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+DEBUG 2024-04-15 11:56:20,433 - appLogger - Handling request: /drinks
+INFO 2024-04-15 11:56:20,433 - appLogger - Fetching all drinks
+DEBUG 2024-04-15 11:56:20,435 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 11:56:20,435 - werkzeug - 172.22.0.1 - - [15/Apr/2024 11:56:20] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 11:56:20,472 - appLogger - Handling request: /favicon.ico
+ERROR 2024-04-15 11:56:20,473 - appLogger - Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/usr/local/lib/python3.10/dist-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/routing/map.py", line 631, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+DEBUG 2024-04-15 11:56:20,473 - appLogger - Handled request: /favicon.ico - Response status: 500
+INFO 2024-04-15 11:56:20,473 - werkzeug - 172.22.0.1 - - [15/Apr/2024 11:56:20] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -

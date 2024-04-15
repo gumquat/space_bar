@@ -82,9 +82,30 @@ def test_register_post_existing_user(client):
     assert response.status_code == 500
     assert b'Registration failed' in response.data
 
-def test_register_post_no_data(client):
+def test_register_post_no_email(client):
     # test the register function with no username
-    response = client.post('/register')
+    response = client.post('/register', data ={
+        'username': 'testuser',
+        'password': 'testpassword'
+    })
+    assert response.status_code == 400
+    assert b'Please provide all required fields' in response.data
+
+def test_register_post_no_user_name(client):
+    # test the register function with no username
+    response = client.post('/register', data ={
+        'email': 'test@email.com',
+        'password': 'testpassword'
+    })
+    assert response.status_code == 400
+    assert b'Please provide all required fields' in response.data
+
+def test_register_post_no_password(client):
+    # test the register function with no username
+    response = client.post('/register', data ={
+        'email': 'test@email.com',
+        'username': 'testuser'
+    })
     assert response.status_code == 400
     assert b'Please provide all required fields' in response.data
 
