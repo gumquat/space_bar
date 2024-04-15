@@ -1,19 +1,33 @@
 // Get the path part of the URL (everything after the last "/")
 const urlPath = window.location.pathname.split("/").pop();
 
-// fetches the route of the API that the user types into the url
-fetch(`http://localhost:5000/${urlPath}`)
-  .then(response => response.json())
-  .then(data => {
-    displayDataInCards(data);
-  })
-  .catch(error => {
-    console.error('Error fetching data:', error);
-  });
+// Fetch the data for the current URL path
+fetchAndDisplayData(urlPath);
 
-  // as soon as the query/page loads it populates!
-window.onload = async function displayDataInCards(data) {
+// Add event listener to handle URL changes
+window.addEventListener('popstate', (event) => {
+  const newUrlPath = window.location.pathname.split("/").pop();
+  fetchAndDisplayData(newUrlPath);
+});
+
+function fetchAndDisplayData(urlPath) {
+  fetch(`http://localhost:5000/${urlPath}`, {
+    method: 'GET'
+  })
+    .then(response => response.json())
+    .then(data => {
+      // Update the URL in the browser history without triggering a full page reload
+      window.history.pushState({}, '', `/${urlPath}`);
+      displayDataInCards(data);
+    })
+    .catch(error => {
+      console.error('Error fetching data:', error);
+    });
+}
+
+function displayDataInCards(data) {
   const cardContainer = document.querySelector('.card-container');
+  cardContainer.innerHTML = ''; // Clear the container
 
   data.forEach(item => {
     const card = createCard(item);
@@ -61,6 +75,3 @@ function createCard(data) {
 
   return card;
 }
-
-// adjust the data.title and data.desciption etc... properties based on the structure of the data returned by the API
-// maybe change 'data' to 'space_bar', idk, look it up
