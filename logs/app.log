@@ -1120,3 +1120,33 @@ Traceback (most recent call last):
 werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
 DEBUG 2024-04-14 15:00:29,132 - appLogger - Handled request: /dashboard - Response status: 500
 INFO 2024-04-14 15:00:29,132 - werkzeug - 127.0.0.1 - - [14/Apr/2024 15:00:29] "[35m[1mPOST /dashboard HTTP/1.1[0m" 500 -
+INFO 2024-04-15 00:18:52,021 - tableLogger - Successfully created tables.
+INFO 2024-04-15 00:18:52,077 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks5.json
+INFO 2024-04-15 00:18:52,081 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks2.json
+INFO 2024-04-15 00:18:52,085 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks.json
+INFO 2024-04-15 00:18:52,090 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks4.json
+INFO 2024-04-15 00:18:52,094 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks3.json
+INFO 2024-04-15 00:18:52,213 - appLogger - Starting Flask application
+INFO 2024-04-15 00:18:52,213 - appLogger - Loading configuration...
+INFO 2024-04-15 00:18:52,218 - appLogger - Successfully connected to the database.
+INFO 2024-04-15 00:18:52,222 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+INFO 2024-04-15 00:18:52,222 - werkzeug - [33mPress CTRL+C to quit[0m
+DEBUG 2024-04-15 00:19:28,143 - appLogger - Handling request: /drinks
+INFO 2024-04-15 00:19:28,143 - appLogger - Fetching all drinks
+DEBUG 2024-04-15 00:19:28,144 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 00:19:28,144 - werkzeug - 127.0.0.1 - - [15/Apr/2024 00:19:28] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 00:19:31,552 - appLogger - Handling request: /wines
+INFO 2024-04-15 00:19:31,552 - appLogger - Fetching Wines
+DEBUG 2024-04-15 00:19:31,553 - appLogger - Handled request: /wines - Response status: 200
+INFO 2024-04-15 00:19:31,553 - werkzeug - 127.0.0.1 - - [15/Apr/2024 00:19:31] "GET /wines HTTP/1.1" 200 -
+DEBUG 2024-04-15 00:19:34,081 - appLogger - Handling request: /beers
+INFO 2024-04-15 00:19:34,081 - appLogger - Fetching Beers
+DEBUG 2024-04-15 00:19:34,082 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-15 00:19:34,082 - werkzeug - 127.0.0.1 - - [15/Apr/2024 00:19:34] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-15 00:19:39,839 - appLogger - Handling request: /budget_drinks
+INFO 2024-04-15 00:19:39,840 - appLogger - Fetching Budget Drinks
+DEBUG 2024-04-15 00:19:39,840 - appLogger - Handled request: /budget_drinks - Response status: 200
+INFO 2024-04-15 00:19:39,840 - werkzeug - 127.0.0.1 - - [15/Apr/2024 00:19:39] "GET /budget_drinks HTTP/1.1" 200 -

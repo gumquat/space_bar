@@ -28,11 +28,13 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 WORKDIR /space_bar
 
 # Install Python libraries for data manipulation, ETL, and database interaction
-RUN pip3 install --no-cache-dir \
-    pandas sqlalchemy numpy pyarrow csvkit beautifulsoup4 lxml requests psycopg2-binary python-dotenv Flask flask_caching Cache flask_bcrypt
+
+COPY requirements.txt .
+
+RUN pip3 install --no-cache-dir -r requirements.txt
 
 # Create a non-root user
 RUN useradd -M correction_tester
 
 # Keep the container running indefinitely (useful for development and debugging)
-CMD ["tail", "-f", "/dev/null"]
+# CMD ["tail", "-f", "/dev/null"]
