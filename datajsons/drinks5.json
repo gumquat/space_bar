@@ -3,7 +3,7 @@
     "drink_name": "Corellian Brandy",
     "description": "A strong, refined brandy celebrated across the galaxy, best enjoyed in the high-speed cantinas of Corellia.",
     "price": 14.99,
-    "drink_type": "Brandy",
+    "drink_type": "Liquor",
     "ingredients": [
       "aged brandy",
       "simple syrup",
@@ -53,7 +53,7 @@
     "drink_name": "Bantha Milk",
     "description": "Rich and creamy, this iconic Tatooine beverage is famous for its bold blue color and sweet taste.",
     "price": 9.99,
-    "drink_type": "Milkshake",
+    "drink_type": "Cocktail",
     "ingredients": [
       "blue tinted milk",
       "cream",
