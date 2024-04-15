@@ -10,6 +10,8 @@ window.addEventListener('popstate', (event) => {
   fetchAndDisplayData(newUrlPath);
 });
 
+
+// THIS IS THE IMPORTAT DYNAMIC LOADING FUCTION //
 function fetchAndDisplayData(urlPath) {
   fetch(`http://localhost:5000/${urlPath}`, {
     method: 'GET'
