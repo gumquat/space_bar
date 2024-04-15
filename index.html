@@ -13,18 +13,8 @@
         <!-- Bootstrap cards will be dynamically added here -->
       </div>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-md-4">
-        <button class="btn btn-primary" id="loadDataBtn">Load Data</button>
-      </div>
-    </div>
   </div>
 
   <script src="script.js"></script>
-  <script>
-    document.getElementById('loadDataButton').addEventListener('click', () => {
-      fetchAndDisplayData(window.location.pathname.split("/").pop());
-    });
-  </script>
 </body>
 </html>
