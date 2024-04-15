@@ -22,10 +22,8 @@ The way our docker container(s) are setup is through docker-compose.
 That way we can easily setup multiple different containers that are automatically connected to one another.
 The two containers we have running as of now are the PostgreSQL database server and the Flask server for hosting our APIs. I believe I will be adding a third container to this setup for hosting the Frontend of the webpage.
 Another process that happens along side the two servers is also running two scripts:
-
-
-![sql_tables](/Design%20Documents/space-bar-diagram.png)
-
+| Drinks Table | Users Table |
+|![sql_tables](/Design%20Documents/space-bar-diagram.png) | placeholder |
 
 1. makeTables.py (Sets up the PostgreSQL tables for drinks and users)
 
