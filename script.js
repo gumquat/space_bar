@@ -62,3 +62,4 @@ function createCard(data) {
 }
 
 // adjust the data.title and data.desciption etc... properties based on the structure of the data returned by the API
+// maybe change 'data' to 'space_bar', idk, look it up
