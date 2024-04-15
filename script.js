@@ -1,7 +1,7 @@
 // Get the path part of the URL (everything after the last "/")
 const urlPath = window.location.pathname.split("/").pop();
 
-// make this an f string that fills past the slash with the query text
+// fetches the route of the API that the user types into the url
 fetch(`http://localhost:5000/${urlPath}`)
   .then(response => response.json())
   .then(data => {
@@ -11,7 +11,8 @@ fetch(`http://localhost:5000/${urlPath}`)
     console.error('Error fetching data:', error);
   });
 
-function displayDataInCards(data) {
+  // as soon as the query/page loads it populates!
+window.onload = async function displayDataInCards(data) {
   const cardContainer = document.querySelector('.card-container');
 
   data.forEach(item => {
