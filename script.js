@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   const cardContainer = document.querySelector('.card-container');
 
-  fetch('/drinks')
+  fetch('http://localhost:5000/drinks')
     .then(response => response.json())
     .then(drinks => {
       drinks.forEach(drink => {

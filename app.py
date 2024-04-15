@@ -21,7 +21,7 @@ logger = logging.getLogger('appLogger')
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app)
+cors = CORS(app)
 app.secret_key = os.environ.get('SECRET_KEY')
 
 bcrypt = Bcrypt(app)
@@ -88,10 +88,10 @@ def handle_exception(e):
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     if request.method == 'POST':
-        
+
         if 'email' not in request.form or 'username' not in request.form or 'password' not in request.form:
             return jsonify({'message': 'Please provide all required fields'}), 400
-        
+
         # Get the form data
         email = request.form['email']
         username = request.form['username']
@@ -383,4 +383,4 @@ def get_liquors():
 
 # DO NOT TOUCH
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
