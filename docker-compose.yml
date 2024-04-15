@@ -18,12 +18,12 @@ services:
     depends_on:
       - postgres
     environment:
-      - FLASK_APP=app.py
-      - POSTGRES_DB=${POSTGRES_DB}
-      - POSTGRES_USER=${POSTGRES_USER}
-      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
-      - DB_HOST=postgres
-      - DB_PORT=5432
+      FLASK_APP: app.py
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      DB_HOST: postgres
+      DB_PORT: 5432
     # Add other configurations as needed
 
   postgres:
