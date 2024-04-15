@@ -1,4 +1,8 @@
-fetch('http://localhost:5000/drinks')
+// Get the path part of the URL (everything after the last "/")
+const urlPath = window.location.pathname.split("/").pop();
+
+// make this an f string that fills past the slash with the query text
+fetch(`http://localhost:5000/${urlPath}`)
   .then(response => response.json())
   .then(data => {
     displayDataInCards(data);
