@@ -2,7 +2,7 @@
 
 ## Sphinx Documentation
 
-![please refer to the index file in /docs to see further information](/docs/index.rst)
+[please refer to the index file in /docs to see further information](/docs/index.rst)
 
 ### Our Figma Design
 
