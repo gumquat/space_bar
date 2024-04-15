@@ -45,6 +45,6 @@ The Space Bar website is a small project, but contributions from the community a
 Authors
 =======
 
-Evan Newman-Chock (github.com/gumquat)
-Evan Richardson (github.com/evanrich2404)
-Tayler Coon (github.com/tayler-made-code)
+- Evan Newman-Chock (github.com/gumquat)
+- Evan Richardson (github.com/evanrich2404)
+- Tayler Coon (github.com/tayler-made-code)
