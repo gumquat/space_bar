@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const cardTitle = document.createElement('h5');
         cardTitle.classList.add('card-title');
-        cardTitle.textContent = drink.drink_name;
+        cardTitle.textContent = `Drink ID: ${drink.drink_id} - ${drink.drink_name}`;
 
         const cardText = document.createElement('p');
         cardText.classList.add('card-text');
@@ -27,12 +27,15 @@ document.addEventListener('DOMContentLoaded', function() {
         cardType.classList.add('card-text', 'text-muted');
         cardType.textContent = `Type: ${drink.drink_type}`;
 
-        // unincluded ingredients for now
+        const cardIngredients = document.createElement('p');
+        cardIngredients.classList.add('card-text');
+        cardIngredients.textContent = `Ingredients: ${drink.ingredients}`;
 
         cardBody.appendChild(cardTitle);
         cardBody.appendChild(cardText);
         cardBody.appendChild(cardPrice);
         cardBody.appendChild(cardType);
+        cardBody.appendChild(cardIngredients);
         card.appendChild(cardBody);
         cardContainer.appendChild(card);
       });
