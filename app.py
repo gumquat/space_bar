@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, redirect, url_for, request, session, flash, render_template
 from flask_caching import Cache
+from flask_cors import CORS
 import psycopg2
 import logging
 from flask_bcrypt import Bcrypt
@@ -20,6 +21,7 @@ logger = logging.getLogger('appLogger')
 load_dotenv()
 
 app = Flask(__name__)
+CORS(app)
 app.secret_key = os.environ.get('SECRET_KEY')
 
 bcrypt = Bcrypt(app)
