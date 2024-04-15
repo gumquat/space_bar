@@ -1214,3 +1214,7 @@ INFO 2024-04-15 00:41:26,952 - werkzeug - [31m[1mWARNING: This is a developmen
  * Running on http://127.0.0.1:5000
  * Running on http://172.30.100.206:5000
 INFO 2024-04-15 00:41:26,952 - werkzeug - [33mPress CTRL+C to quit[0m
+INFO 2024-04-15 10:49:58,510 - appLogger - Starting Flask application
+INFO 2024-04-15 10:49:58,511 - appLogger - Loading configuration...
+CRITICAL 2024-04-15 10:49:58,529 - appLogger - Failed to connect to the database: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  database "gumquat" does not exist
+
