@@ -1,7 +1,18 @@
+.responsive-container {
+  width: 100%;
+  max-width: 1200px; /* Set a maximum width if desired */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
 .banner-image {
-    width: 100%;
-    height: 300px;
     background-image: url("images/space_bar_stylized.png");
-    background-size: cover;
-    background-position: center;
+    margin-bottom: 2rem;
+}
+
+.banner-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
 }
