@@ -3,26 +3,26 @@ document.addEventListener('DOMContentLoaded', function() {
   const buttons = document.querySelectorAll('button[data-route]');
 
   buttons.forEach(button => {
-    button.addEventListener('click', function() {
-      event.preventDefault();
+    button.addEventListener('click', async function(event) {
+      event.preventDefault(); // Prevent the default button click behavior
       const route = this.getAttribute('data-route');
-      fetchDrinks(route);
+      await fetchDrinks(route); // Wait for the fetch to complete before continuing
     });
   });
 
-  function fetchDrinks(path) {
-    fetch(`http://localhost:5000/${path}`)
-      .then(response => response.json())
-      .then(drinks => {
-        cardContainer.innerHTML = ''; // Clear previous cards
-        drinks.forEach(drink => {
-          const card = createCard(drink);
-          cardContainer.appendChild(card);
-        });
-      })
-      .catch(error => {
-        console.error('Error fetching drinks:', error);
+  async function fetchDrinks(path) {
+    try {
+      const response = await fetch(`http://localhost:5000/${path}`);
+      const drinks = await response.json();
+
+      cardContainer.innerHTML = ''; // Clear previous cards
+      drinks.forEach(drink => {
+        const card = createCard(drink);
+        cardContainer.appendChild(card);
       });
+    } catch (error) {
+      console.error('Error fetching drinks:', error);
+    }
   }
 
   function createCard(drink) {
