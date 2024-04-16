@@ -4289,3 +4289,432 @@ INFO 2024-04-15 15:10:13,859 - werkzeug - 172.22.0.1 - - [15/Apr/2024 15:10:13] 
 DEBUG 2024-04-15 15:10:14,317 - appLogger - Handling request: /drinks
 DEBUG 2024-04-15 15:10:14,317 - appLogger - Handled request: /drinks - Response status: 200
 INFO 2024-04-15 15:10:14,317 - werkzeug - 172.22.0.1 - - [15/Apr/2024 15:10:14] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:24,992 - appLogger - Handling request: /drinks
+INFO 2024-04-15 17:49:24,993 - appLogger - Fetching all drinks
+DEBUG 2024-04-15 17:49:24,995 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:24,995 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:24] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:25,309 - appLogger - Handling request: /drinks
+DEBUG 2024-04-15 17:49:25,309 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:25,310 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:25] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:25,588 - appLogger - Handling request: /drinks
+DEBUG 2024-04-15 17:49:25,588 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:25,589 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:25] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:25,898 - appLogger - Handling request: /drinks
+DEBUG 2024-04-15 17:49:25,899 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:25,899 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:25] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:26,156 - appLogger - Handling request: /drinks
+DEBUG 2024-04-15 17:49:26,156 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:26,156 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:26] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:26,433 - appLogger - Handling request: /drinks
+DEBUG 2024-04-15 17:49:26,433 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:26,433 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:26] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:26,695 - appLogger - Handling request: /drinks
+DEBUG 2024-04-15 17:49:26,695 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:26,695 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:26] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:26,983 - appLogger - Handling request: /drinks
+DEBUG 2024-04-15 17:49:26,983 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:26,983 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:26] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:27,234 - appLogger - Handling request: /drinks
+DEBUG 2024-04-15 17:49:27,234 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:27,234 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:27] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:27,476 - appLogger - Handling request: /drinks
+DEBUG 2024-04-15 17:49:27,476 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:27,476 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:27] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:27,713 - appLogger - Handling request: /drinks
+DEBUG 2024-04-15 17:49:27,713 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:27,713 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:27] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:27,970 - appLogger - Handling request: /drinks
+DEBUG 2024-04-15 17:49:27,970 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:27,970 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:27] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:28,235 - appLogger - Handling request: /drinks
+DEBUG 2024-04-15 17:49:28,235 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:28,236 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:28] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:28,507 - appLogger - Handling request: /drinks
+DEBUG 2024-04-15 17:49:28,507 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:28,507 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:28] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:28,754 - appLogger - Handling request: /drinks
+DEBUG 2024-04-15 17:49:28,754 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:28,754 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:28] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:29,060 - appLogger - Handling request: /drinks
+DEBUG 2024-04-15 17:49:29,060 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:29,061 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:29] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:29,337 - appLogger - Handling request: /drinks
+DEBUG 2024-04-15 17:49:29,338 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:29,338 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:29] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:29,625 - appLogger - Handling request: /drinks
+DEBUG 2024-04-15 17:49:29,626 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:29,626 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:29] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-15 17:49:29,926 - appLogger - Handling request: /drinks
+DEBUG 2024-04-15 17:49:29,927 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-15 17:49:29,927 - werkzeug - 172.22.0.1 - - [15/Apr/2024 17:49:29] "GET /drinks HTTP/1.1" 200 -
+INFO 2024-04-16 10:54:23,233 - tableLogger - Successfully created tables.
+INFO 2024-04-16 10:54:23,335 - jsonLogger - Drink 'Corellian Brandy' already exists. Skipping.
+INFO 2024-04-16 10:54:23,335 - jsonLogger - Drink 'Dagobah Swampwater' already exists. Skipping.
+INFO 2024-04-16 10:54:23,335 - jsonLogger - Drink 'Sith Sangria' already exists. Skipping.
+INFO 2024-04-16 10:54:23,336 - jsonLogger - Drink 'Jedi Mind Trick' already exists. Skipping.
+INFO 2024-04-16 10:54:23,336 - jsonLogger - Drink 'Bantha Milk' already exists. Skipping.
+INFO 2024-04-16 10:54:23,336 - jsonLogger - Drink 'Rancor's Breath' already exists. Skipping.
+INFO 2024-04-16 10:54:23,337 - jsonLogger - Drink 'Lando's Luck' already exists. Skipping.
+INFO 2024-04-16 10:54:23,337 - jsonLogger - Drink 'Rebel's Respite' already exists. Skipping.
+INFO 2024-04-16 10:54:23,337 - jsonLogger - Drink 'Ewok Elixir' already exists. Skipping.
+INFO 2024-04-16 10:54:23,338 - jsonLogger - Drink 'Skywalker Sour' already exists. Skipping.
+INFO 2024-04-16 10:54:23,338 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks5.json
+INFO 2024-04-16 10:54:23,339 - jsonLogger - Drink 'Jakku Jammer' already exists. Skipping.
+INFO 2024-04-16 10:54:23,339 - jsonLogger - Drink 'Ryloth Riser' already exists. Skipping.
+INFO 2024-04-16 10:54:23,339 - jsonLogger - Drink 'Ilum Ice Blaster' already exists. Skipping.
+INFO 2024-04-16 10:54:23,339 - jsonLogger - Drink 'Exegol Eclipse' already exists. Skipping.
+INFO 2024-04-16 10:54:23,339 - jsonLogger - Drink 'Korriban Kraken' already exists. Skipping.
+INFO 2024-04-16 10:54:23,340 - jsonLogger - Drink 'Eadu Elixir' already exists. Skipping.
+INFO 2024-04-16 10:54:23,340 - jsonLogger - Drink 'Crait Crusher' already exists. Skipping.
+INFO 2024-04-16 10:54:23,340 - jsonLogger - Drink 'Saleucami Sunrise' already exists. Skipping.
+INFO 2024-04-16 10:54:23,340 - jsonLogger - Drink 'Umbara Underworld' already exists. Skipping.
+INFO 2024-04-16 10:54:23,341 - jsonLogger - Drink 'Ahch-To Ale' already exists. Skipping.
+INFO 2024-04-16 10:54:23,341 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks2.json
+INFO 2024-04-16 10:54:23,341 - jsonLogger - Drink 'Tatooine Sandstorm' already exists. Skipping.
+INFO 2024-04-16 10:54:23,342 - jsonLogger - Drink 'Endor Elixir' already exists. Skipping.
+INFO 2024-04-16 10:54:23,342 - jsonLogger - Drink 'Hoth Haze' already exists. Skipping.
+INFO 2024-04-16 10:54:23,342 - jsonLogger - Drink 'Alderaan Ale' already exists. Skipping.
+INFO 2024-04-16 10:54:23,342 - jsonLogger - Drink 'Kashyyyk Cooler' already exists. Skipping.
+INFO 2024-04-16 10:54:23,343 - jsonLogger - Drink 'Bespin Breeze' already exists. Skipping.
+INFO 2024-04-16 10:54:23,343 - jsonLogger - Drink 'Mandalore Mule' already exists. Skipping.
+INFO 2024-04-16 10:54:23,343 - jsonLogger - Drink 'Mustafar Merlot' already exists. Skipping.
+INFO 2024-04-16 10:54:23,343 - jsonLogger - Drink 'Kamino Kolada' already exists. Skipping.
+INFO 2024-04-16 10:54:23,343 - jsonLogger - Drink 'Naboo Nectar' already exists. Skipping.
+INFO 2024-04-16 10:54:23,344 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks.json
+INFO 2024-04-16 10:54:23,344 - jsonLogger - Drink 'Starlight Spritzer' already exists. Skipping.
+INFO 2024-04-16 10:54:23,344 - jsonLogger - Drink 'Red Dwarf Red' already exists. Skipping.
+INFO 2024-04-16 10:54:23,345 - jsonLogger - Drink 'Galaxy Gimlet' already exists. Skipping.
+INFO 2024-04-16 10:54:23,345 - jsonLogger - Drink 'Eclipse Elixir' already exists. Skipping.
+INFO 2024-04-16 10:54:23,345 - jsonLogger - Drink 'Martian Margarita' already exists. Skipping.
+INFO 2024-04-16 10:54:23,345 - jsonLogger - Drink 'Solar Flare Sangria' already exists. Skipping.
+INFO 2024-04-16 10:54:23,346 - jsonLogger - Drink 'Andromeda Arrack' already exists. Skipping.
+INFO 2024-04-16 10:54:23,346 - jsonLogger - Drink 'Supernova Sour' already exists. Skipping.
+INFO 2024-04-16 10:54:23,346 - jsonLogger - Drink 'Cosmic Cooler' already exists. Skipping.
+INFO 2024-04-16 10:54:23,346 - jsonLogger - Drink 'Quasar Quencher' already exists. Skipping.
+INFO 2024-04-16 10:54:23,346 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks4.json
+INFO 2024-04-16 10:54:23,347 - jsonLogger - Drink 'Galactic Grog' already exists. Skipping.
+INFO 2024-04-16 10:54:23,347 - jsonLogger - Drink 'Meteor Mule' already exists. Skipping.
+INFO 2024-04-16 10:54:23,347 - jsonLogger - Drink 'Cosmic Cosmo' already exists. Skipping.
+INFO 2024-04-16 10:54:23,348 - jsonLogger - Drink 'Void Vodka Tonic' already exists. Skipping.
+INFO 2024-04-16 10:54:23,348 - jsonLogger - Drink 'Nebula Negroni' already exists. Skipping.
+INFO 2024-04-16 10:54:23,348 - jsonLogger - Drink 'Orion's Belt Brew' already exists. Skipping.
+INFO 2024-04-16 10:54:23,349 - jsonLogger - Drink 'Saturn Sangria' already exists. Skipping.
+INFO 2024-04-16 10:54:23,349 - jsonLogger - Drink 'Pluto's Punch' already exists. Skipping.
+INFO 2024-04-16 10:54:23,350 - jsonLogger - Drink 'Black Hole Bitter' already exists. Skipping.
+INFO 2024-04-16 10:54:23,351 - jsonLogger - Drink 'Venusian Vesper' already exists. Skipping.
+INFO 2024-04-16 10:54:23,352 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks3.json
+INFO 2024-04-16 10:54:23,594 - appLogger - Starting Flask application
+INFO 2024-04-16 10:54:23,594 - appLogger - Loading configuration...
+INFO 2024-04-16 10:54:23,603 - appLogger - Successfully connected to the database.
+INFO 2024-04-16 10:54:23,609 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.22.0.3:5000
+INFO 2024-04-16 10:54:23,609 - werkzeug - [33mPress CTRL+C to quit[0m
+DEBUG 2024-04-16 10:54:49,470 - appLogger - Handling request: /drinks
+INFO 2024-04-16 10:54:49,471 - appLogger - Fetching all drinks
+DEBUG 2024-04-16 10:54:49,472 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 10:54:49,473 - werkzeug - 172.22.0.1 - - [16/Apr/2024 10:54:49] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 10:54:49,917 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 10:54:49,917 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 10:54:49,917 - werkzeug - 172.22.0.1 - - [16/Apr/2024 10:54:49] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 10:54:50,342 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 10:54:50,342 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 10:54:50,343 - werkzeug - 172.22.0.1 - - [16/Apr/2024 10:54:50] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 10:54:50,832 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 10:54:50,832 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 10:54:50,832 - werkzeug - 172.22.0.1 - - [16/Apr/2024 10:54:50] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 10:54:51,250 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 10:54:51,250 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 10:54:51,250 - werkzeug - 172.22.0.1 - - [16/Apr/2024 10:54:51] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 10:54:51,611 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 10:54:51,611 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 10:54:51,611 - werkzeug - 172.22.0.1 - - [16/Apr/2024 10:54:51] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 10:54:52,042 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 10:54:52,043 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 10:54:52,043 - werkzeug - 172.22.0.1 - - [16/Apr/2024 10:54:52] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 10:54:52,458 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 10:54:52,459 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 10:54:52,459 - werkzeug - 172.22.0.1 - - [16/Apr/2024 10:54:52] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 10:54:52,732 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 10:54:52,733 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 10:54:52,733 - werkzeug - 172.22.0.1 - - [16/Apr/2024 10:54:52] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 10:54:53,042 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 10:54:53,043 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 10:54:53,043 - werkzeug - 172.22.0.1 - - [16/Apr/2024 10:54:53] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 12:23:38,863 - appLogger - Handling request: /drinks
+INFO 2024-04-16 12:23:38,863 - appLogger - Fetching all drinks
+DEBUG 2024-04-16 12:23:38,865 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 12:23:38,865 - werkzeug - 172.22.0.1 - - [16/Apr/2024 12:23:38] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 12:23:39,271 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 12:23:39,272 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 12:23:39,272 - werkzeug - 172.22.0.1 - - [16/Apr/2024 12:23:39] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 12:23:39,934 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 12:23:39,935 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 12:23:39,935 - werkzeug - 172.22.0.1 - - [16/Apr/2024 12:23:39] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 12:23:40,535 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 12:23:40,535 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 12:23:40,536 - werkzeug - 172.22.0.1 - - [16/Apr/2024 12:23:40] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 12:23:40,996 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 12:23:40,996 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 12:23:40,996 - werkzeug - 172.22.0.1 - - [16/Apr/2024 12:23:40] "GET /drinks HTTP/1.1" 200 -
+INFO 2024-04-16 12:24:08,430 - tableLogger - Successfully created tables.
+INFO 2024-04-16 12:24:08,483 - jsonLogger - Drink 'Corellian Brandy' already exists. Skipping.
+INFO 2024-04-16 12:24:08,483 - jsonLogger - Drink 'Dagobah Swampwater' already exists. Skipping.
+INFO 2024-04-16 12:24:08,483 - jsonLogger - Drink 'Sith Sangria' already exists. Skipping.
+INFO 2024-04-16 12:24:08,484 - jsonLogger - Drink 'Jedi Mind Trick' already exists. Skipping.
+INFO 2024-04-16 12:24:08,484 - jsonLogger - Drink 'Bantha Milk' already exists. Skipping.
+INFO 2024-04-16 12:24:08,484 - jsonLogger - Drink 'Rancor's Breath' already exists. Skipping.
+INFO 2024-04-16 12:24:08,484 - jsonLogger - Drink 'Lando's Luck' already exists. Skipping.
+INFO 2024-04-16 12:24:08,484 - jsonLogger - Drink 'Rebel's Respite' already exists. Skipping.
+INFO 2024-04-16 12:24:08,484 - jsonLogger - Drink 'Ewok Elixir' already exists. Skipping.
+INFO 2024-04-16 12:24:08,485 - jsonLogger - Drink 'Skywalker Sour' already exists. Skipping.
+INFO 2024-04-16 12:24:08,485 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks5.json
+INFO 2024-04-16 12:24:08,485 - jsonLogger - Drink 'Jakku Jammer' already exists. Skipping.
+INFO 2024-04-16 12:24:08,485 - jsonLogger - Drink 'Ryloth Riser' already exists. Skipping.
+INFO 2024-04-16 12:24:08,486 - jsonLogger - Drink 'Ilum Ice Blaster' already exists. Skipping.
+INFO 2024-04-16 12:24:08,486 - jsonLogger - Drink 'Exegol Eclipse' already exists. Skipping.
+INFO 2024-04-16 12:24:08,486 - jsonLogger - Drink 'Korriban Kraken' already exists. Skipping.
+INFO 2024-04-16 12:24:08,486 - jsonLogger - Drink 'Eadu Elixir' already exists. Skipping.
+INFO 2024-04-16 12:24:08,486 - jsonLogger - Drink 'Crait Crusher' already exists. Skipping.
+INFO 2024-04-16 12:24:08,486 - jsonLogger - Drink 'Saleucami Sunrise' already exists. Skipping.
+INFO 2024-04-16 12:24:08,487 - jsonLogger - Drink 'Umbara Underworld' already exists. Skipping.
+INFO 2024-04-16 12:24:08,487 - jsonLogger - Drink 'Ahch-To Ale' already exists. Skipping.
+INFO 2024-04-16 12:24:08,487 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks2.json
+INFO 2024-04-16 12:24:08,487 - jsonLogger - Drink 'Tatooine Sandstorm' already exists. Skipping.
+INFO 2024-04-16 12:24:08,487 - jsonLogger - Drink 'Endor Elixir' already exists. Skipping.
+INFO 2024-04-16 12:24:08,488 - jsonLogger - Drink 'Hoth Haze' already exists. Skipping.
+INFO 2024-04-16 12:24:08,488 - jsonLogger - Drink 'Alderaan Ale' already exists. Skipping.
+INFO 2024-04-16 12:24:08,488 - jsonLogger - Drink 'Kashyyyk Cooler' already exists. Skipping.
+INFO 2024-04-16 12:24:08,488 - jsonLogger - Drink 'Bespin Breeze' already exists. Skipping.
+INFO 2024-04-16 12:24:08,488 - jsonLogger - Drink 'Mandalore Mule' already exists. Skipping.
+INFO 2024-04-16 12:24:08,488 - jsonLogger - Drink 'Mustafar Merlot' already exists. Skipping.
+INFO 2024-04-16 12:24:08,489 - jsonLogger - Drink 'Kamino Kolada' already exists. Skipping.
+INFO 2024-04-16 12:24:08,489 - jsonLogger - Drink 'Naboo Nectar' already exists. Skipping.
+INFO 2024-04-16 12:24:08,489 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks.json
+INFO 2024-04-16 12:24:08,489 - jsonLogger - Drink 'Starlight Spritzer' already exists. Skipping.
+INFO 2024-04-16 12:24:08,489 - jsonLogger - Drink 'Red Dwarf Red' already exists. Skipping.
+INFO 2024-04-16 12:24:08,490 - jsonLogger - Drink 'Galaxy Gimlet' already exists. Skipping.
+INFO 2024-04-16 12:24:08,490 - jsonLogger - Drink 'Eclipse Elixir' already exists. Skipping.
+INFO 2024-04-16 12:24:08,490 - jsonLogger - Drink 'Martian Margarita' already exists. Skipping.
+INFO 2024-04-16 12:24:08,490 - jsonLogger - Drink 'Solar Flare Sangria' already exists. Skipping.
+INFO 2024-04-16 12:24:08,490 - jsonLogger - Drink 'Andromeda Arrack' already exists. Skipping.
+INFO 2024-04-16 12:24:08,491 - jsonLogger - Drink 'Supernova Sour' already exists. Skipping.
+INFO 2024-04-16 12:24:08,491 - jsonLogger - Drink 'Cosmic Cooler' already exists. Skipping.
+INFO 2024-04-16 12:24:08,491 - jsonLogger - Drink 'Quasar Quencher' already exists. Skipping.
+INFO 2024-04-16 12:24:08,491 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks4.json
+INFO 2024-04-16 12:24:08,491 - jsonLogger - Drink 'Galactic Grog' already exists. Skipping.
+INFO 2024-04-16 12:24:08,492 - jsonLogger - Drink 'Meteor Mule' already exists. Skipping.
+INFO 2024-04-16 12:24:08,492 - jsonLogger - Drink 'Cosmic Cosmo' already exists. Skipping.
+INFO 2024-04-16 12:24:08,492 - jsonLogger - Drink 'Void Vodka Tonic' already exists. Skipping.
+INFO 2024-04-16 12:24:08,492 - jsonLogger - Drink 'Nebula Negroni' already exists. Skipping.
+INFO 2024-04-16 12:24:08,492 - jsonLogger - Drink 'Orion's Belt Brew' already exists. Skipping.
+INFO 2024-04-16 12:24:08,492 - jsonLogger - Drink 'Saturn Sangria' already exists. Skipping.
+INFO 2024-04-16 12:24:08,493 - jsonLogger - Drink 'Pluto's Punch' already exists. Skipping.
+INFO 2024-04-16 12:24:08,493 - jsonLogger - Drink 'Black Hole Bitter' already exists. Skipping.
+INFO 2024-04-16 12:24:08,493 - jsonLogger - Drink 'Venusian Vesper' already exists. Skipping.
+INFO 2024-04-16 12:24:08,493 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks3.json
+INFO 2024-04-16 12:24:08,617 - appLogger - Starting Flask application
+INFO 2024-04-16 12:24:08,618 - appLogger - Loading configuration...
+INFO 2024-04-16 12:24:08,623 - appLogger - Successfully connected to the database.
+INFO 2024-04-16 12:24:08,627 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.22.0.3:5000
+INFO 2024-04-16 12:24:08,628 - werkzeug - [33mPress CTRL+C to quit[0m
+DEBUG 2024-04-16 12:24:24,667 - appLogger - Handling request: /drinks
+INFO 2024-04-16 12:24:24,668 - appLogger - Fetching all drinks
+DEBUG 2024-04-16 12:24:24,669 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 12:24:24,669 - werkzeug - 172.22.0.1 - - [16/Apr/2024 12:24:24] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 12:24:25,027 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 12:24:25,027 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 12:24:25,027 - werkzeug - 172.22.0.1 - - [16/Apr/2024 12:24:25] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 12:24:25,406 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 12:24:25,407 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 12:24:25,407 - werkzeug - 172.22.0.1 - - [16/Apr/2024 12:24:25] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 12:24:25,860 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 12:24:25,860 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 12:24:25,860 - werkzeug - 172.22.0.1 - - [16/Apr/2024 12:24:25] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 12:24:26,233 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 12:24:26,233 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 12:24:26,233 - werkzeug - 172.22.0.1 - - [16/Apr/2024 12:24:26] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 12:24:26,569 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 12:24:26,569 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 12:24:26,570 - werkzeug - 172.22.0.1 - - [16/Apr/2024 12:24:26] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 12:24:27,070 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 12:24:27,071 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 12:24:27,071 - werkzeug - 172.22.0.1 - - [16/Apr/2024 12:24:27] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:08:31,999 - appLogger - Handling request: /drinks
+INFO 2024-04-16 13:08:31,999 - appLogger - Fetching all drinks
+DEBUG 2024-04-16 13:08:32,000 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 13:08:32,000 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:08:32] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:08:32,071 - appLogger - Handling request: /favicon.ico
+ERROR 2024-04-16 13:08:32,071 - appLogger - Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/usr/local/lib/python3.10/dist-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/routing/map.py", line 631, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+DEBUG 2024-04-16 13:08:32,072 - appLogger - Handled request: /favicon.ico - Response status: 500
+INFO 2024-04-16 13:08:32,073 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:08:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+DEBUG 2024-04-16 13:37:31,419 - appLogger - Handling request: /drinks
+INFO 2024-04-16 13:37:31,420 - appLogger - Fetching all drinks
+DEBUG 2024-04-16 13:37:31,421 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 13:37:31,421 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:37:31] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:37:33,961 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 13:37:33,961 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 13:37:33,962 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:37:33] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:37:38,964 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 13:37:38,964 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 13:37:38,969 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:37:38] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:37:40,353 - appLogger - Handling request: /beers
+INFO 2024-04-16 13:37:40,354 - appLogger - Fetching Beers
+DEBUG 2024-04-16 13:37:40,354 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-16 13:37:40,355 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:37:40] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:38:30,180 - appLogger - Handling request: /beers
+DEBUG 2024-04-16 13:38:30,180 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-16 13:38:30,180 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:38:30] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:38:31,343 - appLogger - Handling request: /wines
+INFO 2024-04-16 13:38:31,344 - appLogger - Fetching Wines
+DEBUG 2024-04-16 13:38:31,344 - appLogger - Handled request: /wines - Response status: 200
+INFO 2024-04-16 13:38:31,344 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:38:31] "GET /wines HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:38:40,568 - appLogger - Handling request: /beers
+DEBUG 2024-04-16 13:38:40,568 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-16 13:38:40,568 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:38:40] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:38:43,220 - appLogger - Handling request: /beers
+DEBUG 2024-04-16 13:38:43,220 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-16 13:38:43,220 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:38:43] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:38:45,345 - appLogger - Handling request: /beers
+DEBUG 2024-04-16 13:38:45,345 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-16 13:38:45,346 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:38:45] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:38:58,173 - appLogger - Handling request: /beers
+DEBUG 2024-04-16 13:38:58,173 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-16 13:38:58,173 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:38:58] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:40:30,814 - appLogger - Handling request: /beers
+DEBUG 2024-04-16 13:40:30,814 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-16 13:40:30,815 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:40:30] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:40:32,353 - appLogger - Handling request: /beers
+DEBUG 2024-04-16 13:40:32,353 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-16 13:40:32,353 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:40:32] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:40:33,263 - appLogger - Handling request: /beers
+DEBUG 2024-04-16 13:40:33,264 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-16 13:40:33,264 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:40:33] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:40:34,280 - appLogger - Handling request: /beers
+DEBUG 2024-04-16 13:40:34,280 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-16 13:40:34,280 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:40:34] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:40:35,050 - appLogger - Handling request: /drinks
+DEBUG 2024-04-16 13:40:35,051 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 13:40:35,051 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:40:35] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:40:35,738 - appLogger - Handling request: /wines
+DEBUG 2024-04-16 13:40:35,738 - appLogger - Handled request: /wines - Response status: 200
+INFO 2024-04-16 13:40:35,739 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:40:35] "GET /wines HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:40:36,399 - appLogger - Handling request: /whiskeys
+ERROR 2024-04-16 13:40:36,399 - appLogger - Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/usr/local/lib/python3.10/dist-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/routing/map.py", line 631, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+DEBUG 2024-04-16 13:40:36,400 - appLogger - Handled request: /whiskeys - Response status: 500
+INFO 2024-04-16 13:40:36,400 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:40:36] "[35m[1mGET /whiskeys HTTP/1.1[0m" 500 -
+DEBUG 2024-04-16 13:40:36,976 - appLogger - Handling request: /cocktails
+INFO 2024-04-16 13:40:36,976 - appLogger - Fetching Cocktails
+DEBUG 2024-04-16 13:40:36,977 - appLogger - Handled request: /cocktails - Response status: 200
+INFO 2024-04-16 13:40:36,977 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:40:36] "GET /cocktails HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:40:38,627 - appLogger - Handling request: /cocktails
+DEBUG 2024-04-16 13:40:38,628 - appLogger - Handled request: /cocktails - Response status: 200
+INFO 2024-04-16 13:40:38,628 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:40:38] "GET /cocktails HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:40:39,966 - appLogger - Handling request: /budget_drinks
+INFO 2024-04-16 13:40:39,966 - appLogger - Fetching Budget Drinks
+DEBUG 2024-04-16 13:40:39,968 - appLogger - Handled request: /budget_drinks - Response status: 200
+INFO 2024-04-16 13:40:39,968 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:40:39] "GET /budget_drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:43:27,270 - appLogger - Handling request: /drinks
+INFO 2024-04-16 13:43:27,270 - appLogger - Fetching all drinks
+DEBUG 2024-04-16 13:43:27,271 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-16 13:43:27,271 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:43:27] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:43:28,316 - appLogger - Handling request: /beers
+INFO 2024-04-16 13:43:28,316 - appLogger - Fetching Beers
+DEBUG 2024-04-16 13:43:28,317 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-16 13:43:28,317 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:43:28] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:43:29,508 - appLogger - Handling request: /wines
+DEBUG 2024-04-16 13:43:29,509 - appLogger - Handled request: /wines - Response status: 200
+INFO 2024-04-16 13:43:29,509 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:43:29] "GET /wines HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:43:30,403 - appLogger - Handling request: /wines
+DEBUG 2024-04-16 13:43:30,403 - appLogger - Handled request: /wines - Response status: 200
+INFO 2024-04-16 13:43:30,404 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:43:30] "GET /wines HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:43:31,328 - appLogger - Handling request: /whiskeys
+ERROR 2024-04-16 13:43:31,328 - appLogger - Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/usr/local/lib/python3.10/dist-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/routing/map.py", line 631, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+DEBUG 2024-04-16 13:43:31,329 - appLogger - Handled request: /whiskeys - Response status: 500
+INFO 2024-04-16 13:43:31,329 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:43:31] "[35m[1mGET /whiskeys HTTP/1.1[0m" 500 -
+DEBUG 2024-04-16 13:43:32,352 - appLogger - Handling request: /whiskeys
+ERROR 2024-04-16 13:43:32,352 - appLogger - Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 854, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 463, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/usr/local/lib/python3.10/dist-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/routing/map.py", line 631, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+DEBUG 2024-04-16 13:43:32,353 - appLogger - Handled request: /whiskeys - Response status: 500
+INFO 2024-04-16 13:43:32,353 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:43:32] "[35m[1mGET /whiskeys HTTP/1.1[0m" 500 -
+DEBUG 2024-04-16 13:43:33,271 - appLogger - Handling request: /cocktails
+DEBUG 2024-04-16 13:43:33,271 - appLogger - Handled request: /cocktails - Response status: 200
+INFO 2024-04-16 13:43:33,271 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:43:33] "GET /cocktails HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:43:34,126 - appLogger - Handling request: /cocktails
+DEBUG 2024-04-16 13:43:34,126 - appLogger - Handled request: /cocktails - Response status: 200
+INFO 2024-04-16 13:43:34,126 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:43:34] "GET /cocktails HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:43:34,938 - appLogger - Handling request: /budget_drinks
+DEBUG 2024-04-16 13:43:34,938 - appLogger - Handled request: /budget_drinks - Response status: 200
+INFO 2024-04-16 13:43:34,939 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:43:34] "GET /budget_drinks HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:43:46,818 - appLogger - Handling request: /beers
+DEBUG 2024-04-16 13:43:46,818 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-16 13:43:46,819 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:43:46] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:43:59,405 - appLogger - Handling request: /beers
+DEBUG 2024-04-16 13:43:59,405 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-16 13:43:59,406 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:43:59] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:44:01,874 - appLogger - Handling request: /beers
+DEBUG 2024-04-16 13:44:01,874 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-16 13:44:01,874 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:44:01] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:44:03,185 - appLogger - Handling request: /beers
+DEBUG 2024-04-16 13:44:03,186 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-16 13:44:03,186 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:44:03] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:44:04,163 - appLogger - Handling request: /beers
+DEBUG 2024-04-16 13:44:04,164 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-16 13:44:04,164 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:44:04] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:44:05,123 - appLogger - Handling request: /beers
+DEBUG 2024-04-16 13:44:05,123 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-16 13:44:05,124 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:44:05] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-16 13:44:07,946 - appLogger - Handling request: /beers
+DEBUG 2024-04-16 13:44:07,946 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-16 13:44:07,947 - werkzeug - 172.22.0.1 - - [16/Apr/2024 13:44:07] "GET /beers HTTP/1.1" 200 -
