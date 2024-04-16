@@ -6,15 +6,21 @@
   box-sizing: border-box; /* Ensure padding is included in the width */
 }
 
-.banner-image {
-    background-image: url("images/space_bar_stylized_CROPPED.png");
-    margin-bottom: 2rem;
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  background-image: url('images/free_space_image.png');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
 }
 
 .banner-image img {
   width: 100%;
   height: auto;
-  border-radius: 0.5rem;
 }
 
 .centered-text {
