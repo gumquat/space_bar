@@ -16,3 +16,13 @@
   height: auto;
   border-radius: 0.5rem;
 }
+
+.centered-text {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.robot-font {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
