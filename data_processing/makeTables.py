@@ -5,7 +5,7 @@ import logging
 from dotenv import load_dotenv
 
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(name)s - %(message)s"
-logging.basicConfig(filename='./logs/app.log',
+logging.basicConfig(filename='../logs/app.log',
                     level=logging.DEBUG,
                     format=LOG_FORMAT,
                     filemode='a')
@@ -38,7 +38,8 @@ try:
                 "description" varchar,
                 "price" varchar,
                 "drink_type" varchar,
-                "ingredients" varchar[]
+                "ingredients" varchar[],
+                "image_url" varchar
             );
 
             CREATE TABLE IF NOT EXISTS "users" (
