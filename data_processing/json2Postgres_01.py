@@ -1,21 +1,23 @@
 import psycopg2
 import json
 import os
+import csv
 import logging
 import glob
 from dotenv import load_dotenv
+from fuzzywuzzy import process
 
 load_dotenv()
 
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(name)s - %(message)s"
-logging.basicConfig(filename='./logs/app.log',
+logging.basicConfig(filename='../logs/app.log',
                     level=logging.DEBUG,
                     format=LOG_FORMAT,
                     filemode='a')
 logger = logging.getLogger('jsonLogger')
 
 # Path to directory containing JSON files
-json_dir_path = './datajsons/'
+json_dir_path = '../datajsons/'
 
 # Database connection parameters
 dbname = os.environ.get("POSTGRES_DB")
@@ -23,6 +25,16 @@ user = os.environ.get("POSTGRES_USER")
 password = os.environ.get("POSTGRES_PASSWORD")
 host = os.environ.get("DB_HOST")
 port = os.environ.get("DB_PORT")
+
+def read_image_data(csv_file):
+    image_data = {}
+    with open(csv_file, 'r', newline='') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            image_data[row['drink_name']] = row['drink_image_url']
+    return image_data
+
+image_data = read_image_data('../datajsons/drink_images.csv')
 
 # Connect to the PostgreSQL database
 conn = None
@@ -46,6 +58,13 @@ try:
                         logger.info(f"Drink '{drink['drink_name']}' "
                                     f"already exists. Skipping.")
                         continue
+                    
+                    # Find the closest match for the drink name
+                    best_match, score = process.extractOne(drink['drink_name'], image_data.keys())
+                    if score > 80:
+                        drink['image_url'] = image_data[best_match]
+                    else:
+                        logger.warning(f"Could not find image for {drink['drink_name']}")
 
                     # Prepare data for insertion
                     values = (
@@ -53,14 +72,15 @@ try:
                         drink['description'],
                         str(drink['price']),
                         drink['drink_type'],
-                        drink['ingredients']
+                        drink['ingredients'],
+                        drink['image_url']
                     )
 
                     # SQL command
                     insert_sql = '''
                     INSERT INTO drinks
-                    (drink_name, description, price, drink_type, ingredients)
-                    VALUES (%s, %s, %s, %s, %s)
+                    (drink_name, description, price, drink_type, ingredients, image_url)
+                    VALUES (%s, %s, %s, %s, %s, %s)
                     ON CONFLICT (drink_name) DO NOTHING
                     '''
 
