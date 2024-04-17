@@ -218,7 +218,8 @@ def get_all_drinks():
                 'description': drink[2],
                 'price': drink[3],
                 'drink_type': drink[4],
-                'ingredients': drink[5]
+                'ingredients': drink[5],
+                'image_url': drink[6]
             }
             drink_list.append(drink_dict)
 
@@ -249,7 +250,8 @@ def get_cocktails():
                 'description': cocktail[2],
                 'price': cocktail[3],
                 'drink_type': cocktail[4],
-                'ingredients': cocktail[5]
+                'ingredients': cocktail[5],
+                'image_url': cocktail[6]
             }
             cocktail_list.append(cocktail_dict), 200
 
@@ -281,6 +283,7 @@ def get_beers():
                 'price': beer[3],
                 'drink_type': beer[4],
                 # 'ingredients': beer[5]
+                'image_url': beer[6]
             }
             beer_list.append(beer_dict), 200
 
@@ -311,7 +314,8 @@ def get_wines():
                 'description': wine[2],
                 'price': wine[3],
                 'drink_type': wine[4],
-                'ingredients': wine[5]
+                'ingredients': wine[5],
+                'image_url': wine[6]
             }
             wine_list.append(wine_dict)
 
@@ -342,7 +346,8 @@ def get_budget_drinks():
                 'description': drink[2],
                 'price': drink[3],
                 'drink_type': drink[4],
-                'ingredients': drink[5]
+                'ingredients': drink[5],
+                'image_url': drink[6]
             }
             drink_list.append(drink_dict), 200
 
@@ -372,7 +377,8 @@ def get_liquors():
                 'description': liquor[2],
                 'price': liquor[3],
                 'drink_type': liquor[4],
-                'ingredients': liquor[5]
+                'ingredients': liquor[5],
+                'image_url': liquor[6]
             }
             liquor_list.append(liquor_dict)
 
