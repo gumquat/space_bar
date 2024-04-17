@@ -32,3 +32,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
+
+.card-columns {
+  column-count: 3;
+}

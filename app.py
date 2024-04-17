@@ -194,7 +194,8 @@ def dashboad():
 
 @app.route('/', methods=['GET'])
 def home():
-    return jsonify({'message': 'What is money called in space? Star bucks!'})
+    # redirect to /drinks
+    return redirect(url_for('get_all_drinks'))
 
 
 # ### ROUTE ::: ALL DRINKS ###

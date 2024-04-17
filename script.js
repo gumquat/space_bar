@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const cardContainer = document.querySelector('.card-container');
+  const cardContainer = document.querySelector('.card-columns');
   const buttons = document.querySelectorAll('button[data-route]');
 
   buttons.forEach(button => {
@@ -30,11 +30,15 @@ document.addEventListener('DOMContentLoaded', function() {
     card.classList.add('card', 'mb-3');
 
     const cardBody = document.createElement('div');
-    cardBody.classList.add('card-body');
+    cardBody.classList.add('card-body', 'col-12');
+
+    const cardImg = document.createElement('img');
+    cardImg.classList.add('col-12');
+    cardImg.src = `${drink.image_url}`;
 
     const cardTitle = document.createElement('h5');
     cardTitle.classList.add('card-title');
-    cardTitle.textContent = `Drink ID: ${drink.drink_id} - ${drink.drink_name}`;
+    cardTitle.textContent = `${drink.drink_name}`;
 
     const cardText = document.createElement('p');
     cardText.textContent = drink.description;
@@ -48,6 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const cardIngredients = document.createElement('p');
     cardIngredients.textContent = `Ingredients: ${drink.ingredients}`;
 
+    card.appendChild(cardImg);
     cardBody.appendChild(cardTitle);
     cardBody.appendChild(cardText);
     cardBody.appendChild(cardPrice);
