@@ -1,0 +1,115 @@
+[
+  {
+    "drink_name": "Bubbling Burp",
+    "description": "This drink will cause instant relief while going down smooth. With hints of floral ingredients.May cause burping.",
+    "price": 8.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "Elderberry",
+      "Elder Flower",
+      "Gin",
+      "Passion Fruit",
+      "Burp Juice"
+    ]
+  },
+  {
+    "drink_name": "Fishing Hole",
+    "description": "A light and vibrant drink that is a bit sour bit hits the right spot it got a lagoon green feel garnished with gummy worms.",
+    "price": 4.00,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "Citrus Vodka",
+      "Melon Liquor",
+      "Lemon Juice",
+      "Lime Juice",
+      "Sprite"
+    ]
+  },
+  {
+    "drink_name": "Glowstix",
+    "description": "Bright Green, like a glow stick, burns the throat and lips while drinking.",
+    "price": 30,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "Citrus Vodka",
+      "Everclear",
+      "Lime Juice",
+      "Lemon Juice",
+      "Toxic Waste"
+    ]
+  },
+  {
+    "drink_name": "Pow Fran Chanz",
+    "description": "Sprinkle of Anti matter, on the rocks(space ice from Jupiter) with a touch of moon dust garnish",
+    "price": 8.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "Anti-Matter Vodka",
+      "Space Ice",
+      "Moon Dust",
+      "Green Apple Liquor",
+      "Orange Juice"
+    ]
+  },
+  {
+    "drink_name": "Herglic Hefeweizen",
+    "description": "A cloudy wheat beer with hints of banana and clove, brewed by Herglic brewers on their aquatic homeworld.",
+    "price": 24.99,
+    "drink_type": "Beer",
+    "ingredients": null
+  },
+  {
+    "drink_name": "Kowakian Kriek",
+    "description": "A fruity ale with a tart cherry flavor and a hint of mischief, brewed by Kowakian monkey-lizards on their roaming starships.",
+    "price": 24.99,
+    "drink_type": "Beer",
+    "ingredients": null
+  },
+  {
+    "drink_name": "Pau'an Porter",
+    "description": "A dark and robust porter with notes of chocolate and caramel, brewed by Pau'an monks in their shadowy temples on Utapau.",
+    "price": 25.99,
+    "drink_type": "Beer",
+    "ingredients": null
+  },
+  {
+    "drink_name": "Talz Tripel",
+    "description": "A strong ale with a bold flavor and a high alcohol content, brewed by Talz brewers in their frozen mountain retreats.",
+    "price": 24.99,
+    "drink_type": "Beer",
+    "ingredients": null
+  },
+  {
+    "drink_name": "Togrutan Tonic",
+    "description": "A light and bubbly ale with a hint of fruitiness and a clean, refreshing finish, brewed by Togrutan artisans during festive celebrations.",
+    "price": 26.99,
+    "drink_type": "Beer",
+    "ingredients": null
+  },
+  {
+    "drink_name": "Vulcan Void",
+    "description": "An effervescent blue concoction with hints of ionized plasma",
+    "price": 9.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "Blue Coconut Rum",
+      "Blue Curacao",
+      "Gin",
+      "Ionized Plasma",
+      "Burp Juice"
+    ]
+  },
+  {
+    "drink_name": "Meat Moon Colada",
+    "description": "A delicate combination of keratin and hemoglobin, this drink goes down like rotten milk. If that's your thing.",
+    "price": 3.99,
+    "drink_type": "Cocktail",
+    "ingredients": [
+      "Keratin",
+      "Hemoglobin",
+      "Coconut Milk",
+      "Pineapple Juice",
+      "Rotten Milk"
+    ]
+  }
+]
