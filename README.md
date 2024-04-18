@@ -139,3 +139,11 @@ root@57ac362b9ab3:/space_bar# curl http://localhost:5000/logout
 {"message":"You have been logged out"}
 root@57ac362b9ab3:/space_bar#
 ```
+
+## Authors
+
+Evan Newman:
+
+Evan Richardson:
+
+Tayler Coon: Hey there, I'm Tayler Coon, a Full-Stack Engineer with a passion for turning ideas into reality through code! When I'm not coding, you'll likely find me tinkering under my Datsun or mastering the art of Disc Golf. Let's connect on LinkedIn! Feel free to explore more of my projects on Github
