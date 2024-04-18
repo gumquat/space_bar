@@ -1,5 +1,7 @@
 # Space_Bar
 
+![space bar](https://github.com/gumquat/space_bar/assets/23125776/2ee6ae0f-177c-43bd-9810-b795fe3cd85c)
+
 ## Sphinx Documentation
 
 [please refer to the index file in /docs to see further information](/docs/index.rst)
