@@ -9,15 +9,24 @@ from fuzzywuzzy import process
 
 load_dotenv()
 
+# Get the absolute path to the directory where this script is located
+script_dir = os.path.dirname(os.path.abspath(__file__))
+log_directory = os.path.join(script_dir, 'logs')
+log_file = os.path.join(log_directory, 'app.log')
+
+# Ensure the directory exists
+if not os.path.exists(log_directory):
+    os.makedirs(log_directory)
+
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(name)s - %(message)s"
-logging.basicConfig(filename='../logs/app.log',
+logging.basicConfig(filename=log_file,
                     level=logging.DEBUG,
                     format=LOG_FORMAT,
                     filemode='a')
 logger = logging.getLogger('jsonLogger')
 
 # Path to directory containing JSON files
-json_dir_path = '../datajsons/'
+json_dir_path = './datajsons/'
 
 # Database connection parameters
 dbname = os.environ.get("POSTGRES_DB")
@@ -34,7 +43,7 @@ def read_image_data(csv_file):
             image_data[row['drink_name']] = row['drink_image_url']
     return image_data
 
-image_data = read_image_data('../datajsons/drink_images.csv')
+image_data = read_image_data('./datajsons/drink_images.csv')
 
 # Connect to the PostgreSQL database
 conn = None
@@ -58,7 +67,7 @@ try:
                         logger.info(f"Drink '{drink['drink_name']}' "
                                     f"already exists. Skipping.")
                         continue
-                    
+
                     # Find the closest match for the drink name
                     best_match, score = process.extractOne(drink['drink_name'], image_data.keys())
                     if score > 80:

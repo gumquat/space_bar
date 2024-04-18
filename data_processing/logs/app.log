@@ -1,0 +1,7 @@
+INFO 2024-04-17 21:45:43,775 - tableLogger - Successfully created tables.
+INFO 2024-04-17 21:45:43,912 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks5.json
+INFO 2024-04-17 21:45:43,992 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks2.json
+INFO 2024-04-17 21:45:44,074 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks.json
+INFO 2024-04-17 21:45:44,168 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks6.json
+INFO 2024-04-17 21:45:44,251 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks4.json
+INFO 2024-04-17 21:45:44,327 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks3.json

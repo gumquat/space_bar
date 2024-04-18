@@ -10,8 +10,18 @@ import os
 import logging
 
 
+# Get the absolute path to the directory where this script is located
+script_dir = os.path.dirname(os.path.abspath(__file__))
+log_directory = os.path.join(script_dir, 'logs')
+log_file = os.path.join(log_directory, 'app.log')
+
+# Ensure the directory exists
+if not os.path.exists(log_directory):
+    os.makedirs(log_directory)
+
+
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(name)s - %(message)s"
-logging.basicConfig(filename='./logs/app.log',
+logging.basicConfig(filename=log_file,
                     level=logging.DEBUG,
                     format=LOG_FORMAT,
                     filemode='a')

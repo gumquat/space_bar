@@ -7690,3 +7690,170 @@ DEBUG 2024-04-17 19:20:23,101 - appLogger - Handling request: /drinks
 INFO 2024-04-17 19:20:23,103 - appLogger - Fetching all drinks
 DEBUG 2024-04-17 19:20:23,111 - appLogger - Handled request: /drinks - Response status: 200
 INFO 2024-04-17 19:20:23,113 - werkzeug - 127.0.0.1 - - [17/Apr/2024 19:20:23] "GET /drinks HTTP/1.1" 200 -
+INFO 2024-04-17 21:25:00,555 - tableLogger - Successfully created tables.
+INFO 2024-04-17 21:25:48,802 - tableLogger - Successfully created tables.
+INFO 2024-04-17 21:26:33,471 - tableLogger - Successfully created tables.
+INFO 2024-04-17 21:26:33,607 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks5.json
+INFO 2024-04-17 21:26:33,686 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks2.json
+INFO 2024-04-17 21:26:33,769 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks.json
+INFO 2024-04-17 21:26:33,863 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks6.json
+INFO 2024-04-17 21:26:33,948 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks4.json
+INFO 2024-04-17 21:26:34,026 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks3.json
+INFO 2024-04-17 21:26:34,149 - appLogger - Starting Flask application
+INFO 2024-04-17 21:26:34,149 - appLogger - Loading configuration...
+INFO 2024-04-17 21:26:34,154 - appLogger - Successfully connected to the database.
+INFO 2024-04-17 21:26:34,160 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.23.0.3:5000
+INFO 2024-04-17 21:26:34,160 - werkzeug - [33mPress CTRL+C to quit[0m
+INFO 2024-04-17 21:31:28,205 - tableLogger - Successfully created tables.
+INFO 2024-04-17 21:31:28,359 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks5.json
+INFO 2024-04-17 21:31:28,454 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks2.json
+INFO 2024-04-17 21:31:28,549 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks.json
+INFO 2024-04-17 21:31:28,652 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks6.json
+INFO 2024-04-17 21:31:28,744 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks4.json
+INFO 2024-04-17 21:31:28,828 - jsonLogger - Successfully inserted data into the drinks table../datajsons/drinks3.json
+INFO 2024-04-17 21:31:28,976 - appLogger - Starting Flask application
+INFO 2024-04-17 21:31:28,976 - appLogger - Loading configuration...
+INFO 2024-04-17 21:31:28,983 - appLogger - Successfully connected to the database.
+INFO 2024-04-17 21:31:28,987 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.0.3:5000
+INFO 2024-04-17 21:31:28,987 - werkzeug - [33mPress CTRL+C to quit[0m
+DEBUG 2024-04-17 21:33:31,931 - appLogger - Handling request: /beers
+INFO 2024-04-17 21:33:31,932 - appLogger - Fetching Beers
+DEBUG 2024-04-17 21:33:31,934 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-17 21:33:31,934 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:33:31] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:33:33,660 - appLogger - Handling request: /drinks
+INFO 2024-04-17 21:33:33,661 - appLogger - Fetching all drinks
+DEBUG 2024-04-17 21:33:33,661 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-17 21:33:33,662 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:33:33] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:34:43,500 - appLogger - Handling request: /beers
+DEBUG 2024-04-17 21:34:43,501 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-17 21:34:43,501 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:34:43] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:34:44,959 - appLogger - Handling request: /wines
+INFO 2024-04-17 21:34:44,959 - appLogger - Fetching Wines
+DEBUG 2024-04-17 21:34:44,959 - appLogger - Handled request: /wines - Response status: 200
+INFO 2024-04-17 21:34:44,959 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:34:44] "GET /wines HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:34:46,941 - appLogger - Handling request: /liquors
+INFO 2024-04-17 21:34:46,941 - appLogger - Fetching Liquors
+DEBUG 2024-04-17 21:34:46,941 - appLogger - Handled request: /liquors - Response status: 200
+INFO 2024-04-17 21:34:46,942 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:34:46] "GET /liquors HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:34:48,478 - appLogger - Handling request: /cocktails
+INFO 2024-04-17 21:34:48,478 - appLogger - Fetching Cocktails
+DEBUG 2024-04-17 21:34:48,479 - appLogger - Handled request: /cocktails - Response status: 200
+INFO 2024-04-17 21:34:48,480 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:34:48] "GET /cocktails HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:34:50,657 - appLogger - Handling request: /budget_drinks
+INFO 2024-04-17 21:34:50,658 - appLogger - Fetching Budget Drinks
+DEBUG 2024-04-17 21:34:50,658 - appLogger - Handled request: /budget_drinks - Response status: 200
+INFO 2024-04-17 21:34:50,659 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:34:50] "GET /budget_drinks HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:34:53,180 - appLogger - Handling request: /cocktails
+DEBUG 2024-04-17 21:34:53,181 - appLogger - Handled request: /cocktails - Response status: 200
+INFO 2024-04-17 21:34:53,181 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:34:53] "GET /cocktails HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:34:54,075 - appLogger - Handling request: /drinks
+DEBUG 2024-04-17 21:34:54,076 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-17 21:34:54,076 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:34:54] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:35:53,843 - appLogger - Handling request: /budget_drinks
+DEBUG 2024-04-17 21:35:53,843 - appLogger - Handled request: /budget_drinks - Response status: 200
+INFO 2024-04-17 21:35:53,843 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:35:53] "GET /budget_drinks HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:35:59,257 - appLogger - Handling request: /cocktails
+DEBUG 2024-04-17 21:35:59,257 - appLogger - Handled request: /cocktails - Response status: 200
+INFO 2024-04-17 21:35:59,257 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:35:59] "GET /cocktails HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:36:00,676 - appLogger - Handling request: /liquors
+DEBUG 2024-04-17 21:36:00,676 - appLogger - Handled request: /liquors - Response status: 200
+INFO 2024-04-17 21:36:00,676 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:36:00] "GET /liquors HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:36:01,398 - appLogger - Handling request: /wines
+DEBUG 2024-04-17 21:36:01,398 - appLogger - Handled request: /wines - Response status: 200
+INFO 2024-04-17 21:36:01,399 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:36:01] "GET /wines HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:36:01,887 - appLogger - Handling request: /beers
+DEBUG 2024-04-17 21:36:01,887 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-17 21:36:01,887 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:36:01] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:41:22,412 - appLogger - Handling request: /drinks
+INFO 2024-04-17 21:41:22,412 - appLogger - Fetching all drinks
+DEBUG 2024-04-17 21:41:22,413 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-17 21:41:22,413 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:41:22] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:41:47,647 - appLogger - Handling request: /beers
+INFO 2024-04-17 21:41:47,648 - appLogger - Fetching Beers
+DEBUG 2024-04-17 21:41:47,648 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-17 21:41:47,648 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:41:47] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:41:54,041 - appLogger - Handling request: /wines
+INFO 2024-04-17 21:41:54,041 - appLogger - Fetching Wines
+DEBUG 2024-04-17 21:41:54,042 - appLogger - Handled request: /wines - Response status: 200
+INFO 2024-04-17 21:41:54,042 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:41:54] "GET /wines HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:41:55,411 - appLogger - Handling request: /liquors
+INFO 2024-04-17 21:41:55,411 - appLogger - Fetching Liquors
+DEBUG 2024-04-17 21:41:55,412 - appLogger - Handled request: /liquors - Response status: 200
+INFO 2024-04-17 21:41:55,412 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:41:55] "GET /liquors HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:41:56,857 - appLogger - Handling request: /cocktails
+INFO 2024-04-17 21:41:56,857 - appLogger - Fetching Cocktails
+DEBUG 2024-04-17 21:41:56,857 - appLogger - Handled request: /cocktails - Response status: 200
+INFO 2024-04-17 21:41:56,858 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:41:56] "GET /cocktails HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:42:04,086 - appLogger - Handling request: /budget_drinks
+INFO 2024-04-17 21:42:04,086 - appLogger - Fetching Budget Drinks
+DEBUG 2024-04-17 21:42:04,087 - appLogger - Handled request: /budget_drinks - Response status: 200
+INFO 2024-04-17 21:42:04,087 - werkzeug - 172.24.0.1 - - [17/Apr/2024 21:42:04] "GET /budget_drinks HTTP/1.1" 200 -
+INFO 2024-04-17 21:45:44,453 - appLogger - Starting Flask application
+INFO 2024-04-17 21:45:44,453 - appLogger - Loading configuration...
+INFO 2024-04-17 21:45:44,458 - appLogger - Successfully connected to the database.
+INFO 2024-04-17 21:45:44,462 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.25.0.3:5000
+INFO 2024-04-17 21:45:44,462 - werkzeug - [33mPress CTRL+C to quit[0m
+DEBUG 2024-04-17 21:50:03,820 - appLogger - Handling request: /drinks
+INFO 2024-04-17 21:50:03,820 - appLogger - Fetching all drinks
+DEBUG 2024-04-17 21:50:03,822 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-17 21:50:03,823 - werkzeug - 172.25.0.1 - - [17/Apr/2024 21:50:03] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:57:35,886 - appLogger - Handling request: /beers
+INFO 2024-04-17 21:57:35,887 - appLogger - Fetching Beers
+DEBUG 2024-04-17 21:57:35,887 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-17 21:57:35,888 - werkzeug - 172.25.0.1 - - [17/Apr/2024 21:57:35] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:57:38,346 - appLogger - Handling request: /wines
+INFO 2024-04-17 21:57:38,346 - appLogger - Fetching Wines
+DEBUG 2024-04-17 21:57:38,346 - appLogger - Handled request: /wines - Response status: 200
+INFO 2024-04-17 21:57:38,347 - werkzeug - 172.25.0.1 - - [17/Apr/2024 21:57:38] "GET /wines HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:57:39,912 - appLogger - Handling request: /liquors
+INFO 2024-04-17 21:57:39,912 - appLogger - Fetching Liquors
+DEBUG 2024-04-17 21:57:39,913 - appLogger - Handled request: /liquors - Response status: 200
+INFO 2024-04-17 21:57:39,913 - werkzeug - 172.25.0.1 - - [17/Apr/2024 21:57:39] "GET /liquors HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:57:41,037 - appLogger - Handling request: /cocktails
+INFO 2024-04-17 21:57:41,038 - appLogger - Fetching Cocktails
+DEBUG 2024-04-17 21:57:41,038 - appLogger - Handled request: /cocktails - Response status: 200
+INFO 2024-04-17 21:57:41,039 - werkzeug - 172.25.0.1 - - [17/Apr/2024 21:57:41] "GET /cocktails HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:57:42,530 - appLogger - Handling request: /drinks
+INFO 2024-04-17 21:57:42,530 - appLogger - Fetching all drinks
+DEBUG 2024-04-17 21:57:42,531 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-17 21:57:42,531 - werkzeug - 172.25.0.1 - - [17/Apr/2024 21:57:42] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:57:59,740 - appLogger - Handling request: /budget_drinks
+INFO 2024-04-17 21:57:59,740 - appLogger - Fetching Budget Drinks
+DEBUG 2024-04-17 21:57:59,741 - appLogger - Handled request: /budget_drinks - Response status: 200
+INFO 2024-04-17 21:57:59,741 - werkzeug - 172.25.0.1 - - [17/Apr/2024 21:57:59] "GET /budget_drinks HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:58:31,471 - appLogger - Handling request: /drinks
+DEBUG 2024-04-17 21:58:31,472 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-17 21:58:31,472 - werkzeug - 172.25.0.1 - - [17/Apr/2024 21:58:31] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:58:34,452 - appLogger - Handling request: /beers
+DEBUG 2024-04-17 21:58:34,452 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-17 21:58:34,453 - werkzeug - 172.25.0.1 - - [17/Apr/2024 21:58:34] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:58:36,606 - appLogger - Handling request: /wines
+DEBUG 2024-04-17 21:58:36,606 - appLogger - Handled request: /wines - Response status: 200
+INFO 2024-04-17 21:58:36,606 - werkzeug - 172.25.0.1 - - [17/Apr/2024 21:58:36] "GET /wines HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:58:38,003 - appLogger - Handling request: /liquors
+DEBUG 2024-04-17 21:58:38,003 - appLogger - Handled request: /liquors - Response status: 200
+INFO 2024-04-17 21:58:38,003 - werkzeug - 172.25.0.1 - - [17/Apr/2024 21:58:38] "GET /liquors HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:58:38,577 - appLogger - Handling request: /cocktails
+DEBUG 2024-04-17 21:58:38,577 - appLogger - Handled request: /cocktails - Response status: 200
+INFO 2024-04-17 21:58:38,577 - werkzeug - 172.25.0.1 - - [17/Apr/2024 21:58:38] "GET /cocktails HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:58:39,149 - appLogger - Handling request: /beers
+DEBUG 2024-04-17 21:58:39,149 - appLogger - Handled request: /beers - Response status: 200
+INFO 2024-04-17 21:58:39,149 - werkzeug - 172.25.0.1 - - [17/Apr/2024 21:58:39] "GET /beers HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:58:40,272 - appLogger - Handling request: /budget_drinks
+DEBUG 2024-04-17 21:58:40,272 - appLogger - Handled request: /budget_drinks - Response status: 200
+INFO 2024-04-17 21:58:40,273 - werkzeug - 172.25.0.1 - - [17/Apr/2024 21:58:40] "GET /budget_drinks HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:58:45,862 - appLogger - Handling request: /drinks
+DEBUG 2024-04-17 21:58:45,862 - appLogger - Handled request: /drinks - Response status: 200
+INFO 2024-04-17 21:58:45,863 - werkzeug - 172.25.0.1 - - [17/Apr/2024 21:58:45] "GET /drinks HTTP/1.1" 200 -
+DEBUG 2024-04-17 21:58:48,269 - appLogger - Handling request: /budget_drinks
+DEBUG 2024-04-17 21:58:48,270 - appLogger - Handled request: /budget_drinks - Response status: 200
+INFO 2024-04-17 21:58:48,270 - werkzeug - 172.25.0.1 - - [17/Apr/2024 21:58:48] "GET /budget_drinks HTTP/1.1" 200 -
