@@ -18,6 +18,9 @@ or
 
 ## Docker Setup
 
+For right now the docker works best in the branch dockerworkhere
+Are branches accessible for all???
+
 ### Introduction
 
 The way our docker container(s) are setup is through docker-compose.
