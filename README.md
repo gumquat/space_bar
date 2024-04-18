@@ -140,6 +140,23 @@ root@57ac362b9ab3:/space_bar# curl http://localhost:5000/logout
 root@57ac362b9ab3:/space_bar#
 ```
 
+### Frontend
+
+#### Setting up frontend
+
+For a simple frontend, I went ahead and ran in in the docker container as well, regardless if it was necessary or not.
+
+```bash
+~/space_bar$ docker-compose exec app bash
+root@57ac362b9ab3:/space_bar# python3 -m http.server 8080
+Serving HTTP on 0.0.0.0 port 8080 (http://0.0.0.0:8080/) ...
+```
+
+This is the command to run the frontend server, and then you can access it through your browser at `http://localhost:8080/`
+Our frontend has come together, we were somehow able to get it barebones functional with the APIs we have setup.
+It is not the prettiest, but it is functional.
+We will be working on it more in the future to make it more user friendly and visually appealing.
+
 ## Authors
 
 Evan Newman:
